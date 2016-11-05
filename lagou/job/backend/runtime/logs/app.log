@@ -1,0 +1,182 @@
+2016-10-16 19:59:29 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zxc/asd".' in E:\job\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('zxc/asd', Array)
+#1 E:\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\job\backend\web\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\job\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\job\backend\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2016-10-16 19:59:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'zxc/asd'
+]
+
+$_COOKIE = [
+    'Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6' => '1475916982,1475981871,1476066373'
+    'PHPSESSID' => 'mb18u98h0sbpskecc7tatu6bu7'
+    '_csrf' => '5b5b52df22a5d8044cb9d56642ee3215d4f38f1f1be34ee85756d5c36d198113a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"oNH9qoSM4VodqnAwv234KMTt0CiY8msA\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.job.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.job.com/backend/web/index.php?r=position/list'
+    'HTTP_COOKIE' => 'Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1475916982,1475981871,1476066373; PHPSESSID=mb18u98h0sbpskecc7tatu6bu7; _csrf=5b5b52df22a5d8044cb9d56642ee3215d4f38f1f1be34ee85756d5c36d198113a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22oNH9qoSM4VodqnAwv234KMTt0CiY8msA%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Lenovo\\Motion Control\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;;C:\\Program Files (x86)\\Lenovo\\Voice SDK;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;E:\\svn\\bin;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.job.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/job'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/job'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'E:/job/backend/web/index.php'
+    'REMOTE_PORT' => '58931'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=zxc/asd'
+    'REQUEST_URI' => '/backend/web/index.php?r=zxc/asd'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1476619169.502
+    'REQUEST_TIME' => 1476619169
+]
+2016-10-17 11:22:12 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zxc/asd".' in E:\www\night\lagou\job\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\www\night\lagou\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('zxc/asd', Array)
+#1 E:\www\night\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\www\night\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\www\night\lagou\job\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\www\night\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\www\night\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2016-10-17 11:22:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'zxc/asd'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '29la6fh23gqgi5tqqr5ee1m0b2'
+    '_csrf' => '9c8f2fb5ceb454c630cd2e990467a49e33ea632c9f8e4f4ca149477a85ac800da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cS0glS0qIspJkpk25mAHYKkherbPSM7y\";}'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/night/lagou/job/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.zqp.com/night/lagou/job/backend/web/index.php'
+    'HTTP_HOST' => 'www.zqp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.zqp.com/night/lagou/job/backend/web/index.php?r=position/add'
+    'HTTP_COOKIE' => 'PHPSESSID=29la6fh23gqgi5tqqr5ee1m0b2; _csrf=9c8f2fb5ceb454c630cd2e990467a49e33ea632c9f8e4f4ca149477a85ac800da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cS0glS0qIspJkpk25mAHYKkherbPSM7y%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\PHPstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\办公软件\\svn\\bin;C:\\Users\\dell\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dell\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.zqp.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'E:/www/night/lagou/job/backend/web/index.php'
+    'REMOTE_PORT' => '57256'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=zxc/asd'
+    'REQUEST_URI' => '/night/lagou/job/backend/web/index.php?r=zxc/asd'
+    'SCRIPT_NAME' => '/night/lagou/job/backend/web/index.php'
+    'PHP_SELF' => '/night/lagou/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1476674532.929
+    'REQUEST_TIME' => 1476674532
+]
+2016-10-17 11:31:26 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zxc/asd".' in E:\www\night\lagou\job\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\www\night\lagou\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('zxc/asd', Array)
+#1 E:\www\night\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\www\night\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\www\night\lagou\job\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\www\night\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\www\night\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2016-10-17 11:31:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'zxc/asd'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '29la6fh23gqgi5tqqr5ee1m0b2'
+    '_csrf' => 'a2a50989dc2c407088a520e489a8ee74c777262b1b690619908f1a49db363d72a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4P8DGqb9t3I13bHNfDInOEmpRBv3cOJX\";}'
+    'hzy_login_back' => 'http://www.zqp.com/night/lagou/job/frontend/web/index.php'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/night/lagou/job/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.zqp.com/night/lagou/job/backend/web/index.php'
+    'HTTP_HOST' => 'www.zqp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.zqp.com/night/lagou/job/backend/web/index.php'
+    'HTTP_COOKIE' => 'PHPSESSID=29la6fh23gqgi5tqqr5ee1m0b2; _csrf=a2a50989dc2c407088a520e489a8ee74c777262b1b690619908f1a49db363d72a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224P8DGqb9t3I13bHNfDInOEmpRBv3cOJX%22%3B%7D; hzy_login_back=http://www.zqp.com/night/lagou/job/frontend/web/index.php'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\PHPstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\办公软件\\svn\\bin;C:\\Users\\dell\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dell\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.zqp.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'E:/www/night/lagou/job/backend/web/index.php'
+    'REMOTE_PORT' => '57436'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=zxc/asd'
+    'REQUEST_URI' => '/night/lagou/job/backend/web/index.php?r=zxc/asd'
+    'SCRIPT_NAME' => '/night/lagou/job/backend/web/index.php'
+    'PHP_SELF' => '/night/lagou/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1476675086.327
+    'REQUEST_TIME' => 1476675086
+]
