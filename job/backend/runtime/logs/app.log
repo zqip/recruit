@@ -1,0 +1,779 @@
+2016-10-16 19:59:29 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zxc/asd".' in E:\job\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('zxc/asd', Array)
+#1 E:\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\job\backend\web\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\job\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\job\backend\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2016-10-16 19:59:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'zxc/asd'
+]
+
+$_COOKIE = [
+    'Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6' => '1475916982,1475981871,1476066373'
+    'PHPSESSID' => 'mb18u98h0sbpskecc7tatu6bu7'
+    '_csrf' => '5b5b52df22a5d8044cb9d56642ee3215d4f38f1f1be34ee85756d5c36d198113a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"oNH9qoSM4VodqnAwv234KMTt0CiY8msA\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.job.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.job.com/backend/web/index.php?r=position/list'
+    'HTTP_COOKIE' => 'Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1475916982,1475981871,1476066373; PHPSESSID=mb18u98h0sbpskecc7tatu6bu7; _csrf=5b5b52df22a5d8044cb9d56642ee3215d4f38f1f1be34ee85756d5c36d198113a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22oNH9qoSM4VodqnAwv234KMTt0CiY8msA%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Lenovo\\Motion Control\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;;C:\\Program Files (x86)\\Lenovo\\Voice SDK;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;E:\\svn\\bin;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.job.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/job'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/job'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'E:/job/backend/web/index.php'
+    'REMOTE_PORT' => '58931'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=zxc/asd'
+    'REQUEST_URI' => '/backend/web/index.php?r=zxc/asd'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1476619169.502
+    'REQUEST_TIME' => 1476619169
+]
+2016-10-17 11:22:12 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zxc/asd".' in E:\www\night\lagou\job\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\www\night\lagou\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('zxc/asd', Array)
+#1 E:\www\night\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\www\night\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\www\night\lagou\job\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\www\night\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\www\night\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2016-10-17 11:22:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'zxc/asd'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '29la6fh23gqgi5tqqr5ee1m0b2'
+    '_csrf' => '9c8f2fb5ceb454c630cd2e990467a49e33ea632c9f8e4f4ca149477a85ac800da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cS0glS0qIspJkpk25mAHYKkherbPSM7y\";}'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/night/lagou/job/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.zqp.com/night/lagou/job/backend/web/index.php'
+    'HTTP_HOST' => 'www.zqp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.zqp.com/night/lagou/job/backend/web/index.php?r=position/add'
+    'HTTP_COOKIE' => 'PHPSESSID=29la6fh23gqgi5tqqr5ee1m0b2; _csrf=9c8f2fb5ceb454c630cd2e990467a49e33ea632c9f8e4f4ca149477a85ac800da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cS0glS0qIspJkpk25mAHYKkherbPSM7y%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\PHPstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\办公软件\\svn\\bin;C:\\Users\\dell\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dell\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.zqp.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'E:/www/night/lagou/job/backend/web/index.php'
+    'REMOTE_PORT' => '57256'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=zxc/asd'
+    'REQUEST_URI' => '/night/lagou/job/backend/web/index.php?r=zxc/asd'
+    'SCRIPT_NAME' => '/night/lagou/job/backend/web/index.php'
+    'PHP_SELF' => '/night/lagou/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1476674532.929
+    'REQUEST_TIME' => 1476674532
+]
+2016-10-17 11:31:26 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zxc/asd".' in E:\www\night\lagou\job\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\www\night\lagou\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('zxc/asd', Array)
+#1 E:\www\night\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\www\night\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\www\night\lagou\job\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\www\night\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\www\night\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2016-10-17 11:31:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'zxc/asd'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '29la6fh23gqgi5tqqr5ee1m0b2'
+    '_csrf' => 'a2a50989dc2c407088a520e489a8ee74c777262b1b690619908f1a49db363d72a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4P8DGqb9t3I13bHNfDInOEmpRBv3cOJX\";}'
+    'hzy_login_back' => 'http://www.zqp.com/night/lagou/job/frontend/web/index.php'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/night/lagou/job/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.zqp.com/night/lagou/job/backend/web/index.php'
+    'HTTP_HOST' => 'www.zqp.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.zqp.com/night/lagou/job/backend/web/index.php'
+    'HTTP_COOKIE' => 'PHPSESSID=29la6fh23gqgi5tqqr5ee1m0b2; _csrf=a2a50989dc2c407088a520e489a8ee74c777262b1b690619908f1a49db363d72a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224P8DGqb9t3I13bHNfDInOEmpRBv3cOJX%22%3B%7D; hzy_login_back=http://www.zqp.com/night/lagou/job/frontend/web/index.php'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\PHPstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\办公软件\\svn\\bin;C:\\Users\\dell\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dell\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.zqp.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'E:/www/night/lagou/job/backend/web/index.php'
+    'REMOTE_PORT' => '57436'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=zxc/asd'
+    'REQUEST_URI' => '/night/lagou/job/backend/web/index.php?r=zxc/asd'
+    'SCRIPT_NAME' => '/night/lagou/job/backend/web/index.php'
+    'PHP_SELF' => '/night/lagou/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1476675086.327
+    'REQUEST_TIME' => 1476675086
+]
+2016-11-04 09:54:20 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zxc/asd".' in D:\WAMP\phpstudy\WWW\lagou\job\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\lagou\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('zxc/asd', Array)
+#1 D:\WAMP\phpstudy\WWW\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WAMP\phpstudy\WWW\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WAMP\phpstudy\WWW\lagou\job\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WAMP\phpstudy\WWW\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2016-11-04 09:54:19 [::1][-][-][info][application] $_GET = [
+    'r' => 'zxc/asd'
+]
+
+$_COOKIE = [
+    'CNZZDATA2652861' => 'cnzz_eid=199637470-1474177349-&ntime=1474704278'
+    '_ga' => 'GA1.1.1957077172.1474184932'
+    'Hm_lvt_d64af1f3b8e241d56f0536501d4bfdd6' => '1474535399,1474593932'
+    'PHPSESSID' => 'm75ic2mb43s8r5jbn653v1fsg5'
+    '_csrf' => '63ebd3bd54f9f4fc576b4b1206716adfb754395b7f3f05bc1005489ed59aaed0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GU20R3vzc_1aNmvTnK17O9N9-KK7LLia\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1952'
+    'SCRIPT_NAME' => '/lagou/job/backend/web/index.php'
+    'REQUEST_URI' => '/lagou/job/backend/web/index.php?r=zxc/asd'
+    'QUERY_STRING' => 'r=zxc/asd'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52456'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/lagou/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'CNZZDATA2652861=cnzz_eid%3D199637470-1474177349-%26ntime%3D1474704278; _ga=GA1.1.1957077172.1474184932; Hm_lvt_d64af1f3b8e241d56f0536501d4bfdd6=1474535399,1474593932; PHPSESSID=m75ic2mb43s8r5jbn653v1fsg5; _csrf=63ebd3bd54f9f4fc576b4b1206716adfb754395b7f3f05bc1005489ed59aaed0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GU20R3vzc_1aNmvTnK17O9N9-KK7LLia%22%3B%7D'
+    'HTTP_REFERER' => 'http://localhost/lagou/job/backend/web/index.php?r=position/list&page=23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/lagou/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478224459.386
+    'REQUEST_TIME' => 1478224459
+]
+2016-11-05 10:20:02 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "category/list".' in E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('category/list', Array)
+#1 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\iwebshop\lagou_project\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\iwebshop\lagou_project\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2016-11-05 10:20:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'category/list'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'km5na1frdge9bm5s5s92932re0'
+    '_csrf' => '322afcc7799d7760541897391bfcf438fec53e12236d75e93d77a6a4c5d49898a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"UCauPTj5IO7fqTQWVEA0DxVt-7tca92-\";}'
+    'iweb_user_id' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_username' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_head_ico' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_user_pwd' => '632774d96fMDA3NTAwMDAwMGBmYjIxPzdlOmI3MTc9MmMyYmNmNzc'
+    'iweb_safecode' => 'ae7d8fc2aaMDAwNzAwMDcwMDFlNTVlZGg5OjdmMTFhZDFgNDZhO2U1NmM3NWJhMzJkOD0xNDI7OjA6MjJhZjw5NTs5ZTBiMg'
+    'iweb_shoppingcart' => 'ae7d8fc2aaMDAwNzAwMDcwMDM2ZTAxZG0yYGM1ND05MzAzNDU3ODV+JmFoa2BzJD1aXSEmcHJnbHBrdCY+W1V9'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1948'
+    'SCRIPT_NAME' => '/lagou_project/lagou/job/backend/web/index.php'
+    'REQUEST_URI' => '/lagou_project/lagou/job/backend/web/?r=category/list'
+    'QUERY_STRING' => 'r=category/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '55041'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/lagou_project/lagou/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'PHPSESSID=km5na1frdge9bm5s5s92932re0; _csrf=322afcc7799d7760541897391bfcf438fec53e12236d75e93d77a6a4c5d49898a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UCauPTj5IO7fqTQWVEA0DxVt-7tca92-%22%3B%7D; iweb_user_id=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_username=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_head_ico=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_user_pwd=632774d96fMDA3NTAwMDAwMGBmYjIxPzdlOmI3MTc9MmMyYmNmNzc; iweb_safecode=ae7d8fc2aaMDAwNzAwMDcwMDFlNTVlZGg5OjdmMTFhZDFgNDZhO2U1NmM3NWJhMzJkOD0xNDI7OjA6MjJhZjw5NTs5ZTBiMg; iweb_shoppingcart=ae7d8fc2aaMDAwNzAwMDcwMDM2ZTAxZG0yYGM1ND05MzAzNDU3ODV%2BJmFoa2BzJD1aXSEmcHJnbHBrdCY%2BW1V9'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/lagou_project/lagou/job/backend/web/?r=rbac/addprivilege'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/lagou_project/lagou/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478312402.3588
+    'REQUEST_TIME' => 1478312402
+]
+2016-11-05 10:43:18 [127.0.0.1][-][km5na1frdge9bm5s5s92932re0][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: E:\iwebshop\lagou_project\lagou\job\backend\views\layouts\main.php' in E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Controller.php(393): yii\base\View->renderFile('E:\\iwebshop\\lag...', Array, Object(backend\controllers\AdminController))
+#1 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Controller.php(379): yii\base\Controller->renderContent('\xEF\xBB\xBF<!DOCTYPE ht...')
+#2 E:\iwebshop\lagou_project\lagou\job\backend\controllers\AdminController.php(19): yii\base\Controller->render('index')
+#3 [internal function]: backend\controllers\AdminController->actionIndex()
+#4 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#7 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/index', Array)
+#8 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\iwebshop\lagou_project\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#10 {main}
+2016-11-05 10:43:18 [127.0.0.1][-][km5na1frdge9bm5s5s92932re0][info][application] $_GET = [
+    'r' => 'admin/index'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"navbar-fixed\":-1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1}'
+    'PHPSESSID' => 'km5na1frdge9bm5s5s92932re0'
+    '_csrf' => '322afcc7799d7760541897391bfcf438fec53e12236d75e93d77a6a4c5d49898a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"UCauPTj5IO7fqTQWVEA0DxVt-7tca92-\";}'
+    'iweb_user_id' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_username' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_head_ico' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_user_pwd' => '632774d96fMDA3NTAwMDAwMGBmYjIxPzdlOmI3MTc9MmMyYmNmNzc'
+    'iweb_safecode' => 'ae7d8fc2aaMDAwNzAwMDcwMDFlNTVlZGg5OjdmMTFhZDFgNDZhO2U1NmM3NWJhMzJkOD0xNDI7OjA6MjJhZjw5NTs5ZTBiMg'
+    'iweb_shoppingcart' => 'ae7d8fc2aaMDAwNzAwMDcwMDM2ZTAxZG0yYGM1ND05MzAzNDU3ODV+JmFoa2BzJD1aXSEmcHJnbHBrdCY+W1V9'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478310491'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1904'
+    'SCRIPT_NAME' => '/lagou_project/lagou/job/backend/web/index.php'
+    'REQUEST_URI' => '/lagou_project/lagou/job/backend/web/?r=admin/index'
+    'QUERY_STRING' => 'r=admin/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '55692'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/lagou_project/lagou/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%7D; PHPSESSID=km5na1frdge9bm5s5s92932re0; _csrf=322afcc7799d7760541897391bfcf438fec53e12236d75e93d77a6a4c5d49898a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UCauPTj5IO7fqTQWVEA0DxVt-7tca92-%22%3B%7D; iweb_user_id=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_username=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_head_ico=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_user_pwd=632774d96fMDA3NTAwMDAwMGBmYjIxPzdlOmI3MTc9MmMyYmNmNzc; iweb_safecode=ae7d8fc2aaMDAwNzAwMDcwMDFlNTVlZGg5OjdmMTFhZDFgNDZhO2U1NmM3NWJhMzJkOD0xNDI7OjA6MjJhZjw5NTs5ZTBiMg; iweb_shoppingcart=ae7d8fc2aaMDAwNzAwMDcwMDM2ZTAxZG0yYGM1ND05MzAzNDU3ODV%2BJmFoa2BzJD1aXSEmcHJnbHBrdCY%2BW1V9; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478310491'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/lagou_project/lagou/job/backend/web/?r=rbac/addprivilege'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/lagou_project/lagou/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478313798.5757
+    'REQUEST_TIME' => 1478313798
+]
+2016-11-05 10:45:52 [127.0.0.1][-][km5na1frdge9bm5s5s92932re0][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: E:\iwebshop\lagou_project\lagou\job\backend\views\layouts\main.php' in E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Controller.php(393): yii\base\View->renderFile('E:\\iwebshop\\lag...', Array, Object(backend\controllers\AdminController))
+#1 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Controller.php(379): yii\base\Controller->renderContent('\xEF\xBB\xBF<!DOCTYPE ht...')
+#2 E:\iwebshop\lagou_project\lagou\job\backend\controllers\AdminController.php(19): yii\base\Controller->render('index')
+#3 [internal function]: backend\controllers\AdminController->actionIndex()
+#4 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#7 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#8 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\iwebshop\lagou_project\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#10 {main}
+2016-11-05 10:45:51 [127.0.0.1][-][km5na1frdge9bm5s5s92932re0][info][application] $_COOKIE = [
+    'ace_settings' => '{\"navbar-fixed\":-1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1}'
+    'PHPSESSID' => 'km5na1frdge9bm5s5s92932re0'
+    '_csrf' => '322afcc7799d7760541897391bfcf438fec53e12236d75e93d77a6a4c5d49898a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"UCauPTj5IO7fqTQWVEA0DxVt-7tca92-\";}'
+    'iweb_user_id' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_username' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_head_ico' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_user_pwd' => '632774d96fMDA3NTAwMDAwMGBmYjIxPzdlOmI3MTc9MmMyYmNmNzc'
+    'iweb_safecode' => 'ae7d8fc2aaMDAwNzAwMDcwMDFlNTVlZGg5OjdmMTFhZDFgNDZhO2U1NmM3NWJhMzJkOD0xNDI7OjA6MjJhZjw5NTs5ZTBiMg'
+    'iweb_shoppingcart' => 'ae7d8fc2aaMDAwNzAwMDcwMDM2ZTAxZG0yYGM1ND05MzAzNDU3ODV+JmFoa2BzJD1aXSEmcHJnbHBrdCY+W1V9'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478310491'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1904'
+    'SCRIPT_NAME' => '/lagou_project/lagou/job/backend/web/index.php'
+    'REQUEST_URI' => '/lagou_project/lagou/job/backend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '55705'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/lagou_project/lagou/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%7D; PHPSESSID=km5na1frdge9bm5s5s92932re0; _csrf=322afcc7799d7760541897391bfcf438fec53e12236d75e93d77a6a4c5d49898a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UCauPTj5IO7fqTQWVEA0DxVt-7tca92-%22%3B%7D; iweb_user_id=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_username=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_head_ico=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_user_pwd=632774d96fMDA3NTAwMDAwMGBmYjIxPzdlOmI3MTc9MmMyYmNmNzc; iweb_safecode=ae7d8fc2aaMDAwNzAwMDcwMDFlNTVlZGg5OjdmMTFhZDFgNDZhO2U1NmM3NWJhMzJkOD0xNDI7OjA6MjJhZjw5NTs5ZTBiMg; iweb_shoppingcart=ae7d8fc2aaMDAwNzAwMDcwMDM2ZTAxZG0yYGM1ND05MzAzNDU3ODV%2BJmFoa2BzJD1aXSEmcHJnbHBrdCY%2BW1V9; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478310491'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/lagou_project/lagou/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478313951.9735
+    'REQUEST_TIME' => 1478313951
+]
+2016-11-05 10:48:55 [127.0.0.1][-][km5na1frdge9bm5s5s92932re0][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: E:\iwebshop\lagou_project\lagou\job\backend\views\layouts\main.php' in E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Controller.php(393): yii\base\View->renderFile('E:\\iwebshop\\lag...', Array, Object(backend\controllers\AdminController))
+#1 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Controller.php(379): yii\base\Controller->renderContent('\xEF\xBB\xBF<!DOCTYPE ht...')
+#2 E:\iwebshop\lagou_project\lagou\job\backend\controllers\AdminController.php(19): yii\base\Controller->render('index')
+#3 [internal function]: backend\controllers\AdminController->actionIndex()
+#4 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#7 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#8 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\iwebshop\lagou_project\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#10 {main}
+2016-11-05 10:48:55 [127.0.0.1][-][km5na1frdge9bm5s5s92932re0][info][application] $_COOKIE = [
+    'ace_settings' => '{\"navbar-fixed\":-1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1}'
+    'PHPSESSID' => 'km5na1frdge9bm5s5s92932re0'
+    '_csrf' => '322afcc7799d7760541897391bfcf438fec53e12236d75e93d77a6a4c5d49898a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"UCauPTj5IO7fqTQWVEA0DxVt-7tca92-\";}'
+    'iweb_user_id' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_username' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_head_ico' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_user_pwd' => '632774d96fMDA3NTAwMDAwMGBmYjIxPzdlOmI3MTc9MmMyYmNmNzc'
+    'iweb_safecode' => 'ae7d8fc2aaMDAwNzAwMDcwMDFlNTVlZGg5OjdmMTFhZDFgNDZhO2U1NmM3NWJhMzJkOD0xNDI7OjA6MjJhZjw5NTs5ZTBiMg'
+    'iweb_shoppingcart' => 'ae7d8fc2aaMDAwNzAwMDcwMDM2ZTAxZG0yYGM1ND05MzAzNDU3ODV+JmFoa2BzJD1aXSEmcHJnbHBrdCY+W1V9'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478310491'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1904'
+    'SCRIPT_NAME' => '/lagou_project/lagou/job/backend/web/index.php'
+    'REQUEST_URI' => '/lagou_project/lagou/job/backend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56060'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/lagou_project/lagou/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%7D; PHPSESSID=km5na1frdge9bm5s5s92932re0; _csrf=322afcc7799d7760541897391bfcf438fec53e12236d75e93d77a6a4c5d49898a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UCauPTj5IO7fqTQWVEA0DxVt-7tca92-%22%3B%7D; iweb_user_id=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_username=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_head_ico=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_user_pwd=632774d96fMDA3NTAwMDAwMGBmYjIxPzdlOmI3MTc9MmMyYmNmNzc; iweb_safecode=ae7d8fc2aaMDAwNzAwMDcwMDFlNTVlZGg5OjdmMTFhZDFgNDZhO2U1NmM3NWJhMzJkOD0xNDI7OjA6MjJhZjw5NTs5ZTBiMg; iweb_shoppingcart=ae7d8fc2aaMDAwNzAwMDcwMDM2ZTAxZG0yYGM1ND05MzAzNDU3ODV%2BJmFoa2BzJD1aXSEmcHJnbHBrdCY%2BW1V9; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478310491'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/lagou_project/lagou/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478314135.877
+    'REQUEST_TIME' => 1478314135
+]
+2016-11-05 14:01:31 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zxc/asd".' in E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('zxc/asd', Array)
+#1 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\iwebshop\lagou_project\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\iwebshop\lagou_project\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2016-11-05 14:01:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'zxc/asd'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"navbar-fixed\":-1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1,\"sidebar-collapsed\":-1}'
+    'PHPSESSID' => 'km5na1frdge9bm5s5s92932re0'
+    '_csrf' => '322afcc7799d7760541897391bfcf438fec53e12236d75e93d77a6a4c5d49898a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"UCauPTj5IO7fqTQWVEA0DxVt-7tca92-\";}'
+    'iweb_user_id' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_username' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_head_ico' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_user_pwd' => '632774d96fMDA3NTAwMDAwMGBmYjIxPzdlOmI3MTc9MmMyYmNmNzc'
+    'iweb_safecode' => 'ae7d8fc2aaMDAwNzAwMDcwMDFlNTVlZGg5OjdmMTFhZDFgNDZhO2U1NmM3NWJhMzJkOD0xNDI7OjA6MjJhZjw5NTs5ZTBiMg'
+    'iweb_shoppingcart' => 'ae7d8fc2aaMDAwNzAwMDcwMDM2ZTAxZG0yYGM1ND05MzAzNDU3ODV+JmFoa2BzJD1aXSEmcHJnbHBrdCY+W1V9'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478321292'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1852'
+    'SCRIPT_NAME' => '/lagou_project/lagou/job/backend/web/index.php'
+    'REQUEST_URI' => '/lagou_project/lagou/job/backend/web/index.php?r=zxc/asd'
+    'QUERY_STRING' => 'r=zxc/asd'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58094'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/lagou_project/lagou/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%2C%22sidebar-collapsed%22%3A-1%7D; PHPSESSID=km5na1frdge9bm5s5s92932re0; _csrf=322afcc7799d7760541897391bfcf438fec53e12236d75e93d77a6a4c5d49898a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UCauPTj5IO7fqTQWVEA0DxVt-7tca92-%22%3B%7D; iweb_user_id=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_username=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_head_ico=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_user_pwd=632774d96fMDA3NTAwMDAwMGBmYjIxPzdlOmI3MTc9MmMyYmNmNzc; iweb_safecode=ae7d8fc2aaMDAwNzAwMDcwMDFlNTVlZGg5OjdmMTFhZDFgNDZhO2U1NmM3NWJhMzJkOD0xNDI7OjA6MjJhZjw5NTs5ZTBiMg; iweb_shoppingcart=ae7d8fc2aaMDAwNzAwMDcwMDM2ZTAxZG0yYGM1ND05MzAzNDU3ODV%2BJmFoa2BzJD1aXSEmcHJnbHBrdCY%2BW1V9; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478321292'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/lagou_project/lagou/job/backend/web/index.php?r=admin/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/lagou_project/lagou/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478325691.0429
+    'REQUEST_TIME' => 1478325691
+]
+2016-11-05 15:04:06 [127.0.0.1][-][km5na1frdge9bm5s5s92932re0][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: data' in E:\iwebshop\lagou_project\lagou\job\backend\views\admin\adminAdd.php:115
+Stack trace:
+#0 E:\iwebshop\lagou_project\lagou\job\backend\views\admin\adminAdd.php(115): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'E:\\iwebshop\\lag...', 115, Array)
+#1 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\View.php(325): require('E:\\iwebshop\\lag...')
+#2 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\iwebshop\\lag...', Array)
+#3 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\\iwebshop\\lag...', Array, Object(backend\controllers\AdminController))
+#4 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('adminAdd', Array, Object(backend\controllers\AdminController))
+#5 E:\iwebshop\lagou_project\lagou\job\backend\controllers\AdminController.php(26): yii\base\Controller->render('adminAdd')
+#6 [internal function]: backend\controllers\AdminController->actionAdminadd()
+#7 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('adminadd', Array)
+#10 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/adminadd', Array)
+#11 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\iwebshop\lagou_project\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#13 {main}
+2016-11-05 15:04:05 [127.0.0.1][-][km5na1frdge9bm5s5s92932re0][info][application] $_GET = [
+    'r' => 'admin/adminadd'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"navbar-fixed\":-1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1,\"sidebar-collapsed\":-1}'
+    'PHPSESSID' => 'km5na1frdge9bm5s5s92932re0'
+    '_csrf' => '322afcc7799d7760541897391bfcf438fec53e12236d75e93d77a6a4c5d49898a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"UCauPTj5IO7fqTQWVEA0DxVt-7tca92-\";}'
+    'iweb_user_id' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_username' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_head_ico' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_user_pwd' => '632774d96fMDA3NTAwMDAwMGBmYjIxPzdlOmI3MTc9MmMyYmNmNzc'
+    'iweb_safecode' => 'ae7d8fc2aaMDAwNzAwMDcwMDFlNTVlZGg5OjdmMTFhZDFgNDZhO2U1NmM3NWJhMzJkOD0xNDI7OjA6MjJhZjw5NTs5ZTBiMg'
+    'iweb_shoppingcart' => 'ae7d8fc2aaMDAwNzAwMDcwMDM2ZTAxZG0yYGM1ND05MzAzNDU3ODV+JmFoa2BzJD1aXSEmcHJnbHBrdCY+W1V9'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478321292'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1904'
+    'SCRIPT_NAME' => '/lagou_project/lagou/job/backend/web/index.php'
+    'REQUEST_URI' => '/lagou_project/lagou/job/backend/web/index.php?r=admin/adminadd'
+    'QUERY_STRING' => 'r=admin/adminadd'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '59625'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/lagou_project/lagou/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%2C%22sidebar-collapsed%22%3A-1%7D; PHPSESSID=km5na1frdge9bm5s5s92932re0; _csrf=322afcc7799d7760541897391bfcf438fec53e12236d75e93d77a6a4c5d49898a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UCauPTj5IO7fqTQWVEA0DxVt-7tca92-%22%3B%7D; iweb_user_id=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_username=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_head_ico=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_user_pwd=632774d96fMDA3NTAwMDAwMGBmYjIxPzdlOmI3MTc9MmMyYmNmNzc; iweb_safecode=ae7d8fc2aaMDAwNzAwMDcwMDFlNTVlZGg5OjdmMTFhZDFgNDZhO2U1NmM3NWJhMzJkOD0xNDI7OjA6MjJhZjw5NTs5ZTBiMg; iweb_shoppingcart=ae7d8fc2aaMDAwNzAwMDcwMDM2ZTAxZG0yYGM1ND05MzAzNDU3ODV%2BJmFoa2BzJD1aXSEmcHJnbHBrdCY%2BW1V9; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478321292'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/lagou_project/lagou/job/backend/web/index.php'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/lagou_project/lagou/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478329445.8467
+    'REQUEST_TIME' => 1478329445
+]
+2016-11-05 16:19:30 [127.0.0.1][-][km5na1frdge9bm5s5s92932re0][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: data' in E:\iwebshop\lagou_project\lagou\job\backend\views\admin\adminAdd.php:115
+Stack trace:
+#0 E:\iwebshop\lagou_project\lagou\job\backend\views\admin\adminAdd.php(115): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'E:\\iwebshop\\lag...', 115, Array)
+#1 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\View.php(325): require('E:\\iwebshop\\lag...')
+#2 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\iwebshop\\lag...', Array)
+#3 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\\iwebshop\\lag...', Array, Object(backend\controllers\AdminController))
+#4 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('adminAdd', Array, Object(backend\controllers\AdminController))
+#5 E:\iwebshop\lagou_project\lagou\job\backend\controllers\AdminController.php(26): yii\base\Controller->render('adminAdd')
+#6 [internal function]: backend\controllers\AdminController->actionAdminadd()
+#7 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('adminadd', Array)
+#10 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/adminadd', Array)
+#11 E:\iwebshop\lagou_project\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\iwebshop\lagou_project\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#13 {main}
+2016-11-05 16:19:30 [127.0.0.1][-][km5na1frdge9bm5s5s92932re0][info][application] $_GET = [
+    'r' => 'admin/adminadd'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"navbar-fixed\":-1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1,\"sidebar-collapsed\":-1}'
+    'PHPSESSID' => 'km5na1frdge9bm5s5s92932re0'
+    '_csrf' => '322afcc7799d7760541897391bfcf438fec53e12236d75e93d77a6a4c5d49898a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"UCauPTj5IO7fqTQWVEA0DxVt-7tca92-\";}'
+    'iweb_user_id' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_username' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_head_ico' => '7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0'
+    'iweb_user_pwd' => '632774d96fMDA3NTAwMDAwMGBmYjIxPzdlOmI3MTc9MmMyYmNmNzc'
+    'iweb_safecode' => 'ae7d8fc2aaMDAwNzAwMDcwMDFlNTVlZGg5OjdmMTFhZDFgNDZhO2U1NmM3NWJhMzJkOD0xNDI7OjA6MjJhZjw5NTs5ZTBiMg'
+    'iweb_shoppingcart' => 'ae7d8fc2aaMDAwNzAwMDcwMDM2ZTAxZG0yYGM1ND05MzAzNDU3ODV+JmFoa2BzJD1aXSEmcHJnbHBrdCY+W1V9'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478332092'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1932'
+    'SCRIPT_NAME' => '/lagou_project/lagou/job/backend/web/index.php'
+    'REQUEST_URI' => '/lagou_project/lagou/job/backend/web/index.php?r=admin/adminadd'
+    'QUERY_STRING' => 'r=admin/adminadd'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62094'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/lagou_project/lagou/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%2C%22sidebar-collapsed%22%3A-1%7D; PHPSESSID=km5na1frdge9bm5s5s92932re0; _csrf=322afcc7799d7760541897391bfcf438fec53e12236d75e93d77a6a4c5d49898a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UCauPTj5IO7fqTQWVEA0DxVt-7tca92-%22%3B%7D; iweb_user_id=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_username=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_head_ico=7d9a510859NDAxMDAwMDEyMmNvYjIwMDZjMWM8ODcwNWQwZmVgPj0; iweb_user_pwd=632774d96fMDA3NTAwMDAwMGBmYjIxPzdlOmI3MTc9MmMyYmNmNzc; iweb_safecode=ae7d8fc2aaMDAwNzAwMDcwMDFlNTVlZGg5OjdmMTFhZDFgNDZhO2U1NmM3NWJhMzJkOD0xNDI7OjA6MjJhZjw5NTs5ZTBiMg; iweb_shoppingcart=ae7d8fc2aaMDAwNzAwMDcwMDM2ZTAxZG0yYGM1ND05MzAzNDU3ODV%2BJmFoa2BzJD1aXSEmcHJnbHBrdCY%2BW1V9; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478332092'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/lagou_project/lagou/job/backend/web/index.php?r=admin/adminadd'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/lagou_project/lagou/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478333970.1984
+    'REQUEST_TIME' => 1478333970
+]
