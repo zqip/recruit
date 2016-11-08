@@ -90,6 +90,7 @@ class JobPosition extends \yii\db\ActiveRecord
             foreach ($cate as $k => $v) {
                 if ($v['parent_id'] == $parent_id) {
                     $v['level'] = $level;
+                    $v['html']  =str_repeat('--',$level*2);
                     $arr[] = $v;
                     $arr =self::levellist($cate,$v['id'], $level + 1);
                 }

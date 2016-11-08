@@ -185,14 +185,14 @@ foreach ($list as $key => $value) {
 
                 <ul class="submenu">
                     <li>
-                        <a href="elements.html">
+                        <a href="?r=category/categoryadd">
                             <i class="icon-double-angle-right"></i>
                             添加分类
                         </a>
                     </li>
 
                     <li>
-                        <a href="buttons.html">
+                        <a href="?r=category/list">
                             <i class="icon-double-angle-right"></i>
                             分类管理中心
                         </a>
