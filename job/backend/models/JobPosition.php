@@ -64,7 +64,8 @@ class JobPosition extends \yii\db\ActiveRecord
     public function getwhere($id)
     {
         return $this->find()->where(['parent_id'=>$id])->asArray()->all();
-    }public function getone()
+    }
+    public function getone($id)
     {
         return $this->find()->where(['id'=>$id])->asArray()->one();
     }
@@ -74,7 +75,7 @@ class JobPosition extends \yii\db\ActiveRecord
     }
     public function deldate($id){
         $result=$this->find()->where(['id'=>$id])->one();
-       return $result->delete();
+        return $result->delete();
     }
     public function getCount()
     {
