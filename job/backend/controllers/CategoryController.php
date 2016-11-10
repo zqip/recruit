@@ -101,7 +101,7 @@ class CategoryController extends CommonController
             echo "<script>alert('该分类下存在子级分类！');location.href='?r=category/list&page=".$page."'</script>";
         }else{
             //删除
-            echo "<script>if(confirm('确定删除？')==false);location.href='?r=category/list&page=".$page."'</script>";
+            echo "<script>if(confirm('确定删除？')==false);history.go(-1);break;</script>";
             $res = $model->deldate($id);
             if($res){
                 echo "<script>alert('删除成功！');location.href='?r=category/list&page=".$page."'</script>";
@@ -109,6 +109,29 @@ class CategoryController extends CommonController
                 echo "<script>alert('删除失败！');location.href='?r=category/list&page=".$page."'</script>";
             }
         }
+    }
+
+    /**
+     * @brief 删除多个
+     * */
+    public function actionSomedel(){
+        $model = new JobPosition();
+        $request = Yii::$app->request;
+        $str = $request->get('str');
+        $page = $request->get('page');
+        //防止bug
+        $sql2 = "select id from job_position where parent_id in ($str) and id NOT IN ($str)";
+        $aa = Yii::$app->db->createCommand($sql2)->execute();
+        if($aa==0){
+            $sql = "delete from job_position where id in ($str)";
+            $res = Yii::$app->db->createCommand($sql)->execute();
+            $success_data = array('status'=>1);
+            echo json_encode($success_data);
+        }else{
+            $success_data = array('status'=>0);
+            echo json_encode($success_data); 
+        }
+
     }
     /**
      * @brief 分类修改
