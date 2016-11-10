@@ -112,6 +112,21 @@
 														</th>
 													</tr>
 												</thead>
+
+												<thead>
+													<tr>
+														<th class="hidden-480" style="padding-left:480px;">管理员角色：</th>
+
+														<th>
+															<select name="role" class=" bigger-110 hidden-480">
+																
+															<?php foreach ($privilege as $key => $val) { ?>
+																<option value="<?=$val['id']?>"><?= $val['r_name'] ?></option>
+															<?php } ?>    
+															</select>
+														</th>
+													</tr>
+												</thead>
 												
 												<thead>
 													<tr>

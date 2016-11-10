@@ -245,3 +245,71 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1478315778.2899
     'REQUEST_TIME' => 1478315778
 ]
+2016-11-10 14:25:26 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zxc/asd".' in D:\WAMP\phpstudy\WWW\recruit\lagou\job\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\lagou\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('zxc/asd', Array)
+#1 D:\WAMP\phpstudy\WWW\recruit\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WAMP\phpstudy\WWW\recruit\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WAMP\phpstudy\WWW\recruit\lagou\job\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\lagou\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WAMP\phpstudy\WWW\recruit\lagou\job\backend\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2016-11-10 14:25:26 [::1][-][-][info][application] $_GET = [
+    'r' => 'zxc/asd'
+]
+
+$_COOKIE = [
+    'CNZZDATA2652861' => 'cnzz_eid=199637470-1474177349-&ntime=1474704278'
+    '_ga' => 'GA1.1.1957077172.1474184932'
+    'Hm_lvt_d64af1f3b8e241d56f0536501d4bfdd6' => '1474535399,1474593932'
+    'CNZZDATA155540' => 'cnzz_eid=257473586-1478315891-&ntime=1478429308'
+    '_csrf' => 'beaa32a9a2974ab649ad241498dac7311a31b81eacffc9438e80e3a18e4bb564a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uHRpGkkc5aQVk1OWJ8bxvZoxDyvy5cJO\";}'
+    'PHPSESSID' => '94ip5vb9jka9bkq5c17nna5df6'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1916'
+    'SCRIPT_NAME' => '/recruit/lagou/job/backend/web/index.php'
+    'REQUEST_URI' => '/recruit/lagou/job/backend/web/index.php?r=zxc/asd'
+    'QUERY_STRING' => 'r=zxc/asd'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56439'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/lagou/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'CNZZDATA2652861=cnzz_eid%3D199637470-1474177349-%26ntime%3D1474704278; _ga=GA1.1.1957077172.1474184932; Hm_lvt_d64af1f3b8e241d56f0536501d4bfdd6=1474535399,1474593932; CNZZDATA155540=cnzz_eid%3D257473586-1478315891-%26ntime%3D1478429308; _csrf=beaa32a9a2974ab649ad241498dac7311a31b81eacffc9438e80e3a18e4bb564a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uHRpGkkc5aQVk1OWJ8bxvZoxDyvy5cJO%22%3B%7D; PHPSESSID=94ip5vb9jka9bkq5c17nna5df6'
+    'HTTP_REFERER' => 'http://localhost/recruit/lagou/job/backend/web/index.php?r=position/list'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/recruit/lagou/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478759126.2782
+    'REQUEST_TIME' => 1478759126
+]

@@ -51,4 +51,9 @@ class JobAdminUser extends \yii\db\ActiveRecord
             'u_login_time' => 'U Login Time',
         ];
     }
+
+    public function getCount()
+    {
+        return $this->find()->count();
+    }
 }

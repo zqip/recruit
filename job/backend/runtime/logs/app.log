@@ -4272,3 +4272,2275 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1478671305.5411
     'REQUEST_TIME' => 1478671305
 ]
+2016-11-09 14:39:06 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$app' (T_VARIABLE), expecting identifier (T_STRING) or class (T_CLASS)' in D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-09 14:39:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'manager/manager-add'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
+    '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2124'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-add'
+    'QUERY_STRING' => 'r=manager/manager-add'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '65061'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=chmbnipb6fr976qk1gfonjiao7; _csrf=5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.pin.com/index.php?r=manager/manager-list'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478673546.8544
+    'REQUEST_TIME' => 1478673546
+]
+2016-11-09 14:40:22 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$app' (T_VARIABLE), expecting identifier (T_STRING) or class (T_CLASS)' in D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-09 14:40:22 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'manager/manager-add'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
+    '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2124'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-add'
+    'QUERY_STRING' => 'r=manager/manager-add'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '65067'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=chmbnipb6fr976qk1gfonjiao7; _csrf=5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478673622.0212
+    'REQUEST_TIME' => 1478673622
+]
+2016-11-09 15:07:27 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\db\Command::executeScalar()' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(52): yii\base\Component->__call('executeScalar', Array)
+#1 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(52): yii\db\Command->executeScalar()
+#2 [internal function]: backend\controllers\ManagerController->actionManagerAdd()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('manager-add', Array)
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('manager/manager...', Array)
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#9 {main}
+2016-11-09 15:07:27 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][info][application] $_GET = [
+    'r' => 'manager/manager-add'
+]
+
+$_POST = [
+    'u_name' => '梦迪'
+    'u_pwd' => '123'
+    'q_pwd' => '123'
+    'role' => '1'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
+    '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2108'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-add'
+    'QUERY_STRING' => 'r=manager/manager-add'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50022'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'CONTENT_LENGTH' => '52'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=chmbnipb6fr976qk1gfonjiao7; _csrf=5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.pin.com/index.php?r=manager/manager-add'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478675247.6301
+    'REQUEST_TIME' => 1478675247
+]
+2016-11-09 15:08:00 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\db\Command::ExecuteScalar()' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(52): yii\base\Component->__call('ExecuteScalar', Array)
+#1 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(52): yii\db\Command->ExecuteScalar()
+#2 [internal function]: backend\controllers\ManagerController->actionManagerAdd()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('manager-add', Array)
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('manager/manager...', Array)
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#9 {main}
+2016-11-09 15:08:00 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][info][application] $_GET = [
+    'r' => 'manager/manager-add'
+]
+
+$_POST = [
+    'u_name' => '梦迪'
+    'u_pwd' => '123'
+    'q_pwd' => '123'
+    'role' => '1'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
+    '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2108'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-add'
+    'QUERY_STRING' => 'r=manager/manager-add'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50027'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'CONTENT_LENGTH' => '52'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=chmbnipb6fr976qk1gfonjiao7; _csrf=5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.pin.com/index.php?r=manager/manager-add'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478675280.2217
+    'REQUEST_TIME' => 1478675280
+]
+2016-11-09 15:08:17 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php:908
+Stack trace:
+#0 [internal function]: PDOStatement->fetchColumn(0)
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(908): call_user_func_array(Array, Array)
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#3 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(52): yii\db\Command->queryScalar()
+#4 [internal function]: backend\controllers\ManagerController->actionManagerAdd()
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000]: General error
+The SQL being executed was: INSERT INTO `job_admin_user` (`u_name`, `u_pwd`) VALUES ('梦迪', '202cb962ac59075b964b07152d234b70')' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `jo...')
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#2 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(52): yii\db\Command->queryScalar()
+#3 [internal function]: backend\controllers\ManagerController->actionManagerAdd()
+#4 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+)
+
+2016-11-09 15:08:16 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][info][application] $_GET = [
+    'r' => 'manager/manager-add'
+]
+
+$_POST = [
+    'u_name' => '梦迪'
+    'u_pwd' => '123'
+    'q_pwd' => '123'
+    'role' => '1'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
+    '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2108'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-add'
+    'QUERY_STRING' => 'r=manager/manager-add'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50032'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'CONTENT_LENGTH' => '52'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=chmbnipb6fr976qk1gfonjiao7; _csrf=5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.pin.com/index.php?r=manager/manager-add'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478675296.9348
+    'REQUEST_TIME' => 1478675296
+]
+2016-11-09 15:44:09 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined function backend\controllers\last_insert_id()' in D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php:53
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-09 15:44:09 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][info][application] $_GET = [
+    'r' => 'manager/manager-add'
+]
+
+$_POST = [
+    'u_name' => '222'
+    'u_pwd' => '222'
+    'q_pwd' => '222'
+    'role' => '1'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
+    '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2064'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-add'
+    'QUERY_STRING' => 'r=manager/manager-add'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50514'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'CONTENT_LENGTH' => '37'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=chmbnipb6fr976qk1gfonjiao7; _csrf=5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.pin.com/index.php?r=manager/manager-add'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478677449.3509
+    'REQUEST_TIME' => 1478677449
+]
+2016-11-09 15:57:28 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u_id' in 'field list'' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(54): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\ManagerController->actionManagerAdd()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#4 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#9 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u_id' in 'field list'
+The SQL being executed was: INSERT INTO `job_user_role` (`u_id`, `rid`) VALUES ('20', 1)' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `jo...')
+#1 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(54): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\ManagerController->actionManagerAdd()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#4 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'u_id' in 'field list'
+)
+
+2016-11-09 15:57:28 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][info][application] $_GET = [
+    'r' => 'manager/manager-add'
+]
+
+$_POST = [
+    'u_name' => 'M.Di'
+    'u_pwd' => '123'
+    'q_pwd' => '123'
+    'role' => '1'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
+    '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2124'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-add'
+    'QUERY_STRING' => 'r=manager/manager-add'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50765'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'CONTENT_LENGTH' => '38'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=chmbnipb6fr976qk1gfonjiao7; _csrf=5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.pin.com/index.php?r=manager/manager-add'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478678248.4756
+    'REQUEST_TIME' => 1478678248
+]
+2016-11-09 16:22:22 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: backend\models\JobAdminUser::getCount()' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(79): yii\base\Component->__call('getCount', Array)
+#1 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(79): backend\models\JobAdminUser->getCount()
+#2 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('manager-list', Array)
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('manager/manager...', Array)
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#9 {main}
+2016-11-09 16:22:22 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
+    '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '576'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list'
+    'QUERY_STRING' => 'r=manager/manager-list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51095'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=chmbnipb6fr976qk1gfonjiao7; _csrf=5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.pin.com/index.php?r=manager/manager-list'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478679742.4964
+    'REQUEST_TIME' => 1478679742
+]
+2016-11-09 16:23:26 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: len' in D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php:81
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(81): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\WAMP\\phpstud...', 81, Array)
+#1 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('manager-list', Array)
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('manager/manager...', Array)
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#8 {main}
+2016-11-09 16:23:26 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
+    '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '576'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list'
+    'QUERY_STRING' => 'r=manager/manager-list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51098'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=chmbnipb6fr976qk1gfonjiao7; _csrf=5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478679806.7554
+    'REQUEST_TIME' => 1478679806
+]
+2016-11-09 16:46:56 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ':'' in D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php:86
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-09 16:46:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
+    '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2020'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list'
+    'QUERY_STRING' => 'r=manager/manager-list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51257'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=chmbnipb6fr976qk1gfonjiao7; _csrf=5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478681216.6351
+    'REQUEST_TIME' => 1478681216
+]
+2016-11-09 16:47:50 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: allPage' in D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php:92
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(92): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\WAMP\\phpstud...', 92, Array)
+#1 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('manager-list', Array)
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('manager/manager...', Array)
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#8 {main}
+2016-11-09 16:47:50 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
+    '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2020'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list'
+    'QUERY_STRING' => 'r=manager/manager-list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51260'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=chmbnipb6fr976qk1gfonjiao7; _csrf=5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478681270.7478
+    'REQUEST_TIME' => 1478681270
+]
+2016-11-09 16:52:52 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\db\Query::Getlastsql()' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(84): yii\base\Component->__call('Getlastsql', Array)
+#1 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(84): yii\db\Query->Getlastsql()
+#2 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('manager-list', Array)
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('manager/manager...', Array)
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#9 {main}
+2016-11-09 16:52:52 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
+    '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2020'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list'
+    'QUERY_STRING' => 'r=manager/manager-list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51349'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=chmbnipb6fr976qk1gfonjiao7; _csrf=5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.pin.com/index.php?r=manager/manager-list'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478681572.5463
+    'REQUEST_TIME' => 1478681572
+]
+2016-11-09 17:00:31 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\db\Command::getRowSql()' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(84): yii\base\Component->__call('getRowSql', Array)
+#1 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(84): yii\db\Command->getRowSql()
+#2 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('manager-list', Array)
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('manager/manager...', Array)
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#9 {main}
+2016-11-09 17:00:31 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
+    '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2020'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list'
+    'QUERY_STRING' => 'r=manager/manager-list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51623'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=chmbnipb6fr976qk1gfonjiao7; _csrf=5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478682031.7424
+    'REQUEST_TIME' => 1478682031
+]
+2016-11-09 17:03:37 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message '__clone method called on non-object' in D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php:84
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-09 17:03:37 [127.0.0.1][-][chmbnipb6fr976qk1gfonjiao7][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
+    '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2020'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list'
+    'QUERY_STRING' => 'r=manager/manager-list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51645'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=chmbnipb6fr976qk1gfonjiao7; _csrf=5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478682217.2232
+    'REQUEST_TIME' => 1478682217
+]
+2016-11-10 10:18:09 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: id' in D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php:91
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(91): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\WAMP\\phpstud...', 91, Array)
+#1 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('manager-list', Array)
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('manager/manager...', Array)
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#8 {main}
+2016-11-10 10:18:09 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+    'page' => '3'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'r84pgosm8goor0aku7n7m1kr86'
+    '_csrf' => 'fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1940'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list&page=3'
+    'QUERY_STRING' => 'r=manager/manager-list&page=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51752'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=r84pgosm8goor0aku7n7m1kr86; _csrf=fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478744289.3649
+    'REQUEST_TIME' => 1478744289
+]
+2016-11-10 10:18:52 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: id' in D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php:91
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(91): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\WAMP\\phpstud...', 91, Array)
+#1 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('manager-list', Array)
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('manager/manager...', Array)
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#8 {main}
+2016-11-10 10:18:52 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+    'page' => '3'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'r84pgosm8goor0aku7n7m1kr86'
+    '_csrf' => 'fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1940'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list&page=3'
+    'QUERY_STRING' => 'r=manager/manager-list&page=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51775'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=r84pgosm8goor0aku7n7m1kr86; _csrf=fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478744332.7513
+    'REQUEST_TIME' => 1478744332
+]
+2016-11-10 11:22:06 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\db\Command::one()' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(90): yii\base\Component->__call('one', Array)
+#1 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(90): yii\db\Command->one()
+#2 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('manager-list', Array)
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('manager/manager...', Array)
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#9 {main}
+2016-11-10 11:22:06 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+    'page' => '3'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'r84pgosm8goor0aku7n7m1kr86'
+    '_csrf' => 'fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2000'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list&page=3'
+    'QUERY_STRING' => 'r=manager/manager-list&page=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52946'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=r84pgosm8goor0aku7n7m1kr86; _csrf=fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478748126.7167
+    'REQUEST_TIME' => 1478748126
+]
+2016-11-10 11:34:32 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: r_name' in D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php:95
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(95): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\WAMP\\phpstud...', 95, Array)
+#1 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('manager-list', Array)
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('manager/manager...', Array)
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#8 {main}
+2016-11-10 11:34:32 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+    'page' => '3'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'r84pgosm8goor0aku7n7m1kr86'
+    '_csrf' => 'fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1940'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list&page=3'
+    'QUERY_STRING' => 'r=manager/manager-list&page=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53712'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=r84pgosm8goor0aku7n7m1kr86; _csrf=fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478748872.1915
+    'REQUEST_TIME' => 1478748872
+]
+2016-11-10 11:35:24 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'ur'' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(93): yii\db\Query->all()
+#4 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'ur'
+The SQL being executed was: SELECT `r_name` FROM `job_admin_role` `ar` LEFT JOIN `job_user_role` `ur` ON ar.id=ur.rid LEFT JOIN `job_user_role` `ur` ON ar.id=ur.rid WHERE ur.uid=18' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT `r_name`...')
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(93): yii\db\Query->all()
+#4 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1066
+    [2] => Not unique table/alias: 'ur'
+)
+
+2016-11-10 11:35:24 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+    'page' => '3'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'r84pgosm8goor0aku7n7m1kr86'
+    '_csrf' => 'fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1940'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list&page=3'
+    'QUERY_STRING' => 'r=manager/manager-list&page=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53723'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=r84pgosm8goor0aku7n7m1kr86; _csrf=fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478748924.4676
+    'REQUEST_TIME' => 1478748924
+]
+2016-11-10 11:44:19 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'ur'' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(93): yii\db\Query->all()
+#4 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'ur'
+The SQL being executed was: SELECT `r_name` FROM `job_admin_role` `ar` LEFT JOIN `job_user_role` `ur` ON ar.id=ur.rid LEFT JOIN `job_user_role` `ur` ON ar.id=ur.rid WHERE ur.uid=18' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT `r_name`...')
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(93): yii\db\Query->all()
+#4 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1066
+    [2] => Not unique table/alias: 'ur'
+)
+
+2016-11-10 11:44:19 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+    'page' => '3'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'r84pgosm8goor0aku7n7m1kr86'
+    '_csrf' => 'fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2036'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list&page=3'
+    'QUERY_STRING' => 'r=manager/manager-list&page=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53898'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=r84pgosm8goor0aku7n7m1kr86; _csrf=fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478749459.637
+    'REQUEST_TIME' => 1478749459
+]
+2016-11-10 11:48:08 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'ur'' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(93): yii\db\Query->all()
+#4 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'ur'
+The SQL being executed was: SELECT `r_name` FROM `job_admin_role` `ar` LEFT JOIN `job_user_role` `ur` ON ar.id=ur.rid LEFT JOIN `job_user_role` `ur` ON ar.id=ur.rid WHERE ur.uid=18' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT `r_name`...')
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(93): yii\db\Query->all()
+#4 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1066
+    [2] => Not unique table/alias: 'ur'
+)
+
+2016-11-10 11:48:08 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+    'page' => '3'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'r84pgosm8goor0aku7n7m1kr86'
+    '_csrf' => 'fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2036'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list&page=3'
+    'QUERY_STRING' => 'r=manager/manager-list&page=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53985'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=r84pgosm8goor0aku7n7m1kr86; _csrf=fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478749688.2341
+    'REQUEST_TIME' => 1478749688
+]
+2016-11-10 11:51:22 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'ur'' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(93): yii\db\Query->all()
+#4 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'ur'
+The SQL being executed was: SELECT `r_name` FROM `job_admin_role` `ar` LEFT JOIN `job_user_role` `ur` ON ar.id=ur.rid LEFT JOIN `job_user_role` `ur` ON ar.id=ur.rid WHERE ur.uid=18' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT `r_name`...')
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(93): yii\db\Query->all()
+#4 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1066
+    [2] => Not unique table/alias: 'ur'
+)
+
+2016-11-10 11:51:22 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+    'page' => '3'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'r84pgosm8goor0aku7n7m1kr86'
+    '_csrf' => 'fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2036'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list&page=3'
+    'QUERY_STRING' => 'r=manager/manager-list&page=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54095'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=r84pgosm8goor0aku7n7m1kr86; _csrf=fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478749882.5225
+    'REQUEST_TIME' => 1478749882
+]
+2016-11-10 11:52:37 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'ur'' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(94): yii\db\Query->all()
+#4 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'ur'
+The SQL being executed was: SELECT `r_name` FROM `job_admin_role` `ar` LEFT JOIN `job_user_role` `ur` ON ar.id=ur.rid LEFT JOIN `job_user_role` `ur` ON ar.id=ur.rid WHERE ur.uid=18' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT `r_name`...')
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(94): yii\db\Query->all()
+#4 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1066
+    [2] => Not unique table/alias: 'ur'
+)
+
+2016-11-10 11:52:37 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+    'page' => '3'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'r84pgosm8goor0aku7n7m1kr86'
+    '_csrf' => 'fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2024'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list&page=3'
+    'QUERY_STRING' => 'r=manager/manager-list&page=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54172'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=r84pgosm8goor0aku7n7m1kr86; _csrf=fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478749957.8013
+    'REQUEST_TIME' => 1478749957
+]
+2016-11-10 11:52:55 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'ur'' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(94): yii\db\Query->all()
+#4 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'ur'
+The SQL being executed was: SELECT `r_name` FROM `job_admin_role` `ar` LEFT JOIN `job_user_role` `ur` ON ar.id=ur.rid LEFT JOIN `job_user_role` `ur` ON ar.id=ur.rid WHERE ur.uid=18' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT `r_name`...')
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(94): yii\db\Query->all()
+#4 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1066
+    [2] => Not unique table/alias: 'ur'
+)
+
+2016-11-10 11:52:55 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+    'page' => '3'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'r84pgosm8goor0aku7n7m1kr86'
+    '_csrf' => 'fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2024'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list&page=3'
+    'QUERY_STRING' => 'r=manager/manager-list&page=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54188'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=r84pgosm8goor0aku7n7m1kr86; _csrf=fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478749975.0109
+    'REQUEST_TIME' => 1478749975
+]
+2016-11-10 11:56:03 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'ur'' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(94): yii\db\Query->all()
+#4 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'ur'
+The SQL being executed was: SELECT `r_name` FROM `job_admin_role` `ar` LEFT JOIN `job_user_role` `ur` ON ar.id=ur.rid LEFT JOIN `job_user_role` `ur` ON ar.id=ur.rid WHERE ur.uid=18' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT `r_name`...')
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(94): yii\db\Query->all()
+#4 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1066
+    [2] => Not unique table/alias: 'ur'
+)
+
+2016-11-10 11:56:03 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+    'page' => '3'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'r84pgosm8goor0aku7n7m1kr86'
+    '_csrf' => 'fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2024'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list&page=3'
+    'QUERY_STRING' => 'r=manager/manager-list&page=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54331'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=r84pgosm8goor0aku7n7m1kr86; _csrf=fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478750163.042
+    'REQUEST_TIME' => 1478750163
+]
+2016-11-10 11:57:17 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'ar'' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(94): yii\db\Query->all()
+#4 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'ar'
+The SQL being executed was: SELECT `r_name` FROM `job_user_role` `ur` LEFT JOIN `job_admin_role` `ar` ON ar.id=ur.rid LEFT JOIN `job_admin_role` `ar` ON ar.id=ur.rid WHERE ur.uid=18' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT `r_name`...')
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(94): yii\db\Query->all()
+#4 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1066
+    [2] => Not unique table/alias: 'ar'
+)
+
+2016-11-10 11:57:17 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+    'page' => '3'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'r84pgosm8goor0aku7n7m1kr86'
+    '_csrf' => 'fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2024'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list&page=3'
+    'QUERY_STRING' => 'r=manager/manager-list&page=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54367'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=r84pgosm8goor0aku7n7m1kr86; _csrf=fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478750237.5516
+    'REQUEST_TIME' => 1478750237
+]
+2016-11-10 11:59:09 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'ar'' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(94): yii\db\Query->all()
+#4 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'ar'
+The SQL being executed was: SELECT `r_name` FROM `job_user_role` `ur` LEFT JOIN `job_admin_role` `ar` ON ar.id=ur.rid LEFT JOIN `job_admin_role` `ar` ON ar.id=ur.rid WHERE ur.uid=18' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT `r_name`...')
+#1 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(94): yii\db\Query->all()
+#4 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1066
+    [2] => Not unique table/alias: 'ar'
+)
+
+2016-11-10 11:59:09 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+    'page' => '3'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'r84pgosm8goor0aku7n7m1kr86'
+    '_csrf' => 'fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2024'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list&page=3'
+    'QUERY_STRING' => 'r=manager/manager-list&page=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54467'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=r84pgosm8goor0aku7n7m1kr86; _csrf=fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478750349.07
+    'REQUEST_TIME' => 1478750349
+]
+2016-11-10 13:46:46 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: r_name' in D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php:99
+Stack trace:
+#0 D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php(99): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\WAMP\\phpstud...', 99, Array)
+#1 [internal function]: backend\controllers\ManagerController->actionManagerList()
+#2 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('manager-list', Array)
+#5 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('manager/manager...', Array)
+#6 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\WAMP\phpstudy\WWW\recruit\job\backend\web\index.php(19): yii\base\Application->run()
+#8 {main}
+2016-11-10 13:46:46 [127.0.0.1][-][r84pgosm8goor0aku7n7m1kr86][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+    'page' => '3'
+]
+
+$_COOKIE = [
+    '__utma' => '175658403.1035526730.1478247739.1478247739.1478247739.1'
+    '__utmz' => '175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'r84pgosm8goor0aku7n7m1kr86'
+    '_csrf' => 'fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/WAMP/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2024'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=manager/manager-list&page=3'
+    'QUERY_STRING' => 'r=manager/manager-list&page=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '55595'
+    'SCRIPT_FILENAME' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WAMP/phpstudy/WWW/recruit/job/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.pin.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=r84pgosm8goor0aku7n7m1kr86; _csrf=fe071ace7a6cbc61c3af37e75f85980df9dcb2d2b506be836e818fc58fa1e53ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ig8Gbr9vPOiT77Dx25RX7I81CYu8g7nr%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.pin.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478756806.0415
+    'REQUEST_TIME' => 1478756806
+]
