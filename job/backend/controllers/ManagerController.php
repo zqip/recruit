@@ -1,20 +1,13 @@
 <?php
 namespace backend\controllers;
-
 use Yii;
 use yii\web\Controller;
 use yii\model\JobAdminUser;
-
 /**
  * Admin controller
  */
 class ManagerController extends CommonController
 {
-<<<<<<< HEAD
-    
-
-=======
->>>>>>> 7925669ed48b3d42e567255a643a02abb3dc97b3
 	public $enableCsrfValidation = false;
     /**
      * 管理员添加
@@ -25,10 +18,6 @@ class ManagerController extends CommonController
         $con=\yii::$app->db;
         if($request->isPost){
             $data=$request->post();
-<<<<<<< HEAD
-
-=======
->>>>>>> 7925669ed48b3d42e567255a643a02abb3dc97b3
             //验证非空
             if(!$data['u_name']){
                 echo "<script>alert('管理员名称不能为空！');location.href='?r=manager/manager-add'</script>";die;
@@ -39,61 +28,38 @@ class ManagerController extends CommonController
                     echo "<script>alert('管理员名称重复！');location.href='?r=manager/manager-add'</script>";die;
                 }
             }
-
             if(!$data['u_pwd']){
                 echo "<script>alert('密码不能为空！');location.href='?r=manager/manager-add'</script>";die;
             }
-
             if(!$data['q_pwd']){
                 echo "<script>alert('请确认密码！');location.href='?r=manager/manager-add'</script>";die;
             }
-
             //验证密码与确认密码是否相符
             if($data['u_pwd']!=$data['q_pwd']){
                 
                 echo "<script>alert('密码与确认密码不符！');location.href='?r=manager/manager-add'</script>";die;
             }
-
             $u_pwd=md5($data['u_pwd']);
-<<<<<<< HEAD
-            $res=$con->createCommand()->insert('job_admin_user',['u_name'=>$data['u_name'],'u_pwd'=>$u_pwd])->execute();
-
-            $u_id=$con->getLastInsertID();
-
-            $res1=$con->createCommand()->insert('job_user_role',['uid'=>$u_id,'rid'=>$data['role']])->execute();
-
-            if($res && $res1){
-=======
             $res=$con->createCommand()
                      ->insert('job_admin_user',['u_name'=>$data['u_name'],'u_pwd'=>$u_pwd])
                      ->execute();
             if($res){
->>>>>>> 7925669ed48b3d42e567255a643a02abb3dc97b3
                 echo "<script>alert('添加成功');location.href='?r=manager/manager-list'</script>";
             }else{
                 echo "<script>alert('添加失败');location.href='?r=manager/manager-add'</script>";
             }
-<<<<<<< HEAD
-            //print_r($data);
-        }else{
-            $query=new \yii\db\Query();
-            $privilege=$query->select('*')->from('job_admin_role')->all();
-            //print_r($privilege);die;
-           return $this->render('managerAdd',['privilege'=>$privilege
-            ]); 
-=======
             print_r($data);
         }else{
-           return $this->render('managerAdd'); 
->>>>>>> 7925669ed48b3d42e567255a643a02abb3dc97b3
+           $query=new \yii\db\Query();
+           $roleData=$query->select('*')
+           ->from('job_admin_role')
+           ->all();
+           return $this->render('managerAdd',['roleData'=>$roleData]); 
         }
         
     }
-
     //列表展示
     public function actionManagerList(){
-<<<<<<< HEAD
-        
         $request = \yii::$app->request;
         $query=new \yii\db\Query();
         $con=\yii::$app->db;
@@ -135,38 +101,22 @@ class ManagerController extends CommonController
            'next'    => $next,
            'allPage' => $total,
       ]);
-
-=======
-        $query=new \yii\db\Query();
-        $info=$query->select(['id','u_name','u_login_time'])->from('job_admin_user')->all();
-        return $this->render('managerList',['info'=>$info]);
->>>>>>> 7925669ed48b3d42e567255a643a02abb3dc97b3
        
     }
 
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 7925669ed48b3d42e567255a643a02abb3dc97b3
     //管理员删除
     public function actionDel(){
         $request=\yii::$app->request;
         $con=\yii::$app->db;
         $id=$request->get('id');
         $res=$con->createCommand()->delete('job_admin_user',['id'=>$id])->execute();
-<<<<<<< HEAD
         $res=$con->createCommand()->delete('job_user_role',['uid'=>$id])->execute();
-=======
->>>>>>> 7925669ed48b3d42e567255a643a02abb3dc97b3
         if($res){
             echo json_encode(['state'=>'success']);
         }else{
             echo json_encode(['state'=>'fail']);
         }
     }
-
     //管理员编辑
     public function actionUpdate(){
         $request=\yii::$app->request;
@@ -175,18 +125,19 @@ class ManagerController extends CommonController
         if($request->isPost){
             $data=$request->post();
 
+            
+            $res=$query->select('id')->from('job_admin_user')->where("u_name=:u_name",[':u_name'=>$data['u_name']])->one();
+            if($res){
+                echo "<script>alert('管理员名称重复！');location.href='?r=manager/manager-add'</script>";die;
+            }
+
             //验证密码与确认密码是否相符
             if($data['u_pwd']!=$data['q_pwd']){
                 
                 echo "<script>alert('密码与确认密码不符！');location.href='?r=manager/manager-add'</script>";die;
             }
-
             //print_r($data);
-<<<<<<< HEAD
-            $res=$con->createCommand()->update('job_admin_user',['u_name'=>$data['u_name'],'u_pwd'=>md5($data['u_pwd'])],['id'=>$data['u_id']])->execute();
-=======
             $res=$con->createCommand()->update('job_admin_user',['u_name'=>$data['u_name'],'u_pwd'=>$data['u_pwd']],['id'=>$data['u_id']])->execute();
->>>>>>> 7925669ed48b3d42e567255a643a02abb3dc97b3
             if($res){
                 echo "<script>alert('修改成功');location.href='?r=manager/manager-list'</script>";
             }else{
@@ -200,5 +151,4 @@ class ManagerController extends CommonController
         }
         
     }
-
 }

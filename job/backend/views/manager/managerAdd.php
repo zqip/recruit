@@ -112,24 +112,21 @@
 														</th>
 													</tr>
 												</thead>
-<<<<<<< HEAD
 
 												<thead>
 													<tr>
-														<th class="hidden-480" style="padding-left:480px;">管理员角色：</th>
+														<th class="hidden-480" style="padding-left:480px;">管理员身份：</th>
 
 														<th>
-															<select name="role" class=" bigger-110 hidden-480">
-																
-															<?php foreach ($privilege as $key => $val) { ?>
-																<option value="<?=$val['id']?>"><?= $val['r_name'] ?></option>
-															<?php } ?>    
+															
+															<select name="role" >
+																<?php foreach($roleData as $k=>$v):?>
+																	<option value="<?= $v['id']?>"><?= $v['r_name']?></option>
+																<?php endforeach;?>
 															</select>
 														</th>
 													</tr>
 												</thead>
-=======
->>>>>>> 7925669ed48b3d42e567255a643a02abb3dc97b3
 												
 												<thead>
 													<tr>
