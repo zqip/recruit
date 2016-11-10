@@ -233,14 +233,14 @@ foreach ($list as $key => $value) {
 
             <ul class="submenu">
                 <li>
-                    <a href="elements.html">
+                    <a href="?r=company/companyadd">
                         <i class="icon-double-angle-right"></i>
                         添加公司
                     </a>
                 </li>
 
                 <li>
-                    <a href="buttons.html">
+                    <a href="?r=company/list">
                         <i class="icon-double-angle-right"></i>
                         公司管理
                     </a>
