@@ -25,6 +25,7 @@ else{
     $sql = "select u.id,p.*from job_admin_user u INNER JOIN job_user_role ur on u.id=ur.uid INNER JOIN job_admin_role r on ur.rid=r.id INNER JOIN job_role_privilege rp on r.id=rp.rid INNER JOIN job_admin_privilege p on rp.pid=p.id where u.id=$admin_id";
     $res = $db->createCommand($sql)->queryAll();
 }
+//echo $sql;die;
 // print_r($res);die;
 $list = array();
 foreach ($res as $key => $value) {
@@ -136,14 +137,14 @@ foreach ($list as $key => $value) {
 
                 <ul class="submenu">
                     <li>
-                        <a href="?r=admin/adminadd">
+                        <a href="?r=manager/manager-add">
                             <i class="icon-double-angle-right"></i>
                             管理员添加
                         </a>
                     </li>
 
                     <li>
-                        <a href="nestable-list.html">
+                        <a href="?r=manager/manager-list">
                             <i class="icon-double-angle-right"></i>
                             管理员列表
                         </a>
