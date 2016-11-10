@@ -151,21 +151,24 @@
 																} ?>
 														<td>
 															<div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
+																<a href="index.php?r=position/add ?>">
 																<button class="btn btn-xs btn-success">
 																	<i class="icon-ok bigger-120"></i>
 																</button>
 
-																<a href="index.php?r=position/update&id=<?= $v['id'] ?>"><button class="btn btn-xs btn-info">
+																<a href="index.php?r=position/update&id=<?= $v['id'] ?>">
+																<button class="btn btn-xs btn-info">
 																	<i class="icon-edit bigger-120"></i>
 																</button></a>
 
-																<a href="index.php?r=position/del&id=<?= $v['id'] ?>"><button class="btn btn-xs btn-danger">
+																<a href="index.php?r=position/del&id=<?= $v['id'] ?>">
+																<button class="btn btn-xs btn-danger">
 																	<i class="icon-trash bigger-120"></i>
 																</button></a>
 
-																<button class="btn btn-xs btn-warning">
+																<!-- <button class="btn btn-xs btn-warning">
 																	<i class="icon-flag bigger-120"></i>
-																</button>
+																</button> -->
 															</div>
 															
 															<div class="visible-xs visible-sm hidden-md hidden-lg">
@@ -210,9 +213,9 @@
 												</tbody>
 											</table>
 											<a href="index.php?r=position/list&page=1">首页</a>
-															<a href="index.php?r=position/list&page=<?=$prev ?>">上一页</a>
-															<a href="index.php?r=position/list&page=<?=$next ?>">下一页</a>
-															<a href="index.php?r=position/list&page=<?=$allPage ?>">末页</a>
+											<a href="index.php?r=position/list&page=<?=$prev ?>">上一页</a>
+											<a href="index.php?r=position/list&page=<?=$next ?>">下一页</a>
+											<a href="index.php?r=position/list&page=<?=$allPage ?>">末页</a>
 										</div><!-- /.table-responsive -->
 									</div><!-- /span -->
 								</div><!-- /row -->
