@@ -4272,6 +4272,7 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1478671305.5411
     'REQUEST_TIME' => 1478671305
 ]
+<<<<<<< HEAD
 2016-11-09 14:39:06 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$app' (T_VARIABLE), expecting identifier (T_STRING) or class (T_CLASS)' in D:\WAMP\phpstudy\WWW\recruit\job\backend\controllers\ManagerController.php:13
 Stack trace:
 #0 [internal function]: yii\base\ErrorHandler->handleFatalError()
@@ -6544,3 +6545,5 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1478756806.0415
     'REQUEST_TIME' => 1478756806
 ]
+=======
+>>>>>>> 7925669ed48b3d42e567255a643a02abb3dc97b3

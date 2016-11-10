@@ -35,7 +35,11 @@
 		<!-- inline styles related to this page -->
 
 		<!-- ace settings handler -->
+<<<<<<< HEAD
 		
+=======
+
+>>>>>>> 7925669ed48b3d42e567255a643a02abb3dc97b3
 		<script src="assets/js/ace-extra.min.js"></script>
 
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -93,7 +97,10 @@
 															</label>
 														</th>
 														<th>管理员名称</th>
+<<<<<<< HEAD
 														<th>管理员身份</th>
+=======
+>>>>>>> 7925669ed48b3d42e567255a643a02abb3dc97b3
 														<th>最近一次登录</th>
 														
 
@@ -112,6 +119,7 @@
 															</label>
 														</td>
 														
+<<<<<<< HEAD
 														<td>
 														<?= $v['u_name'] ?>
 														
@@ -121,6 +129,12 @@
 														
 														</td>
 
+=======
+															<td>
+															<?= $v['u_name'] ?>
+															
+														</td>
+>>>>>>> 7925669ed48b3d42e567255a643a02abb3dc97b3
 														<?php if($v['u_login_time']==0):?>
 															<td>暂未登录</td>
 														<?php else:?>
@@ -153,10 +167,14 @@
 												
 												</tbody>
 											</table>
+<<<<<<< HEAD
 											<a href="index.php?r=manager/manager-list&page=1">首页</a>
 															<a href="index.php?r=manager/manager-list&page=<?=$prev ?>">上一页</a>
 															<a href="index.php?r=manager/manager-list&page=<?=$next ?>">下一页</a>
 															<a href="index.php?r=manager/manager-list&page=<?=$allPage ?>">末页</a>
+=======
+											
+>>>>>>> 7925669ed48b3d42e567255a643a02abb3dc97b3
 										</div><!-- /.table-responsive -->
 									</div><!-- /span -->
 								</div><!-- /row -->
@@ -189,6 +207,7 @@
 			}
 		})
 		$('.del').click(function(){
+<<<<<<< HEAD
 			if(confirm('确定要删除吗？')){
 				var id=$(this).attr('id');
 				var _this=$(this);
@@ -201,6 +220,17 @@
 				},'json');
 			}
 			
+=======
+			var id=$(this).attr('id');
+			var _this=$(this);
+			$.get('?r=manager/del',{id:id},function(msg){
+				if(msg['state']=='success'){
+					_this.parent().parent().parent().remove();
+				}else{
+					alert('删除失败');
+				}
+			},'json');
+>>>>>>> 7925669ed48b3d42e567255a643a02abb3dc97b3
 			
 		})
 	})

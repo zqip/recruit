@@ -69,15 +69,13 @@
                     控制台
                     <small>
                         <i class="icon-double-angle-right"></i>
-                        首页
+                        The console
                     </small>
                 </h1>
             </div>
-            <div class="row">
-                <div class="col-xs-12">
-                    <!-- PAGE CONTENT ENDS -->
-                </div><!-- /.col -->
-            </div><!-- /.row -->
+
+                <center><h2><b>Welcome to the four sets of development projects</b></h2></center>
+            
         </div><!-- /.page-content -->
     </div><!-- /.main-content -->
 
@@ -282,11 +280,6 @@
 
         });
 
-
-
-
-
-
         var d1 = [];
         for (var i = 0; i < Math.PI * 2; i += 0.5) {
             d1.push([i, Math.sin(i)]);
@@ -381,10 +374,7 @@
             else $(this).closest('li').removeClass('selected');
         });
 
-
     })
 </script>
-
 </body>
 </html>
-
