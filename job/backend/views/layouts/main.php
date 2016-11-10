@@ -154,23 +154,23 @@ foreach ($list as $key => $value) {
             <li>
                 <a href="#" class="dropdown-toggle">
                     <i class="icon-desktop"></i>
-                    <span class="menu-text"> 岗位管理 </span>
+                    <span class="menu-text"> 职位管理 </span>
 
                     <b class="arrow icon-angle-down"></b>
                 </a>
 
                 <ul class="submenu">
                     <li>
-                        <a href="elements.html">
+                        <a href="?r=position/add">
                             <i class="icon-double-angle-right"></i>
-                            岗位添加
+                            职位添加
                         </a>
                     </li>
 
                     <li>
-                        <a href="buttons.html">
+                        <a href="?r=position/list">
                             <i class="icon-double-angle-right"></i>
-                            岗位列表
+                            职位列表
                         </a>
                     </li>
                     </ul>
