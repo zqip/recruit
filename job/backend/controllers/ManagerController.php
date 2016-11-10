@@ -20,6 +20,10 @@ class ManagerController extends CommonController
         $con=\yii::$app->db;
         if($request->isPost){
             $data=$request->post();
+<<<<<<< HEAD
+=======
+
+>>>>>>> remotes/origin/lmd
             //验证非空
             if(!$data['u_name']){
                 echo "<script>alert('管理员名称不能为空！');location.href='?r=manager/manager-add'</script>";die;
@@ -46,9 +50,13 @@ class ManagerController extends CommonController
             }
 
             $u_pwd=md5($data['u_pwd']);
+<<<<<<< HEAD
             $res=$con->createCommand()
                      ->insert('job_admin_user',['u_name'=>$data['u_name'],'u_pwd'=>$u_pwd])
                      ->execute();
+=======
+            $res=$con->createCommand()->insert('job_admin_user',['u_name'=>$data['u_name'],'u_pwd'=>$u_pwd])->execute();
+>>>>>>> remotes/origin/lmd
             if($res){
                 echo "<script>alert('添加成功');location.href='?r=manager/manager-list'</script>";
             }else{
