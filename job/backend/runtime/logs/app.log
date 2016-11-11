@@ -8075,3 +8075,1647 @@ $_SERVER = [
 >>>>>>> remotes/origin/cyy
 >>>>>>> b0c37e0c1913459410ff0b77b24418a877ed9162
 ]
+2016-11-11 08:37:15 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 51778 bytes' 
+
+in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\iwebshop\\my_...', 88, Array)
+#1 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('E:\\iwebshop\\my_...', Array)
+#3 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-11-11 08:37:15 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => 'e897332a6d74a66ba580aca3e0bb2e82fa528e93e47ebbc50accf405b335cad6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"v5l3bAom6DtQ-VFnOws4LbghMVmbO_0E\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1772'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51891'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=e897332a6d74a66ba580aca3e0bb2e82fa528e93e47ebbc50accf405b335cad6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22v5l3bAom6DtQ-VFnOws4LbghMVmbO_0E%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478824634.9007
+    'REQUEST_TIME' => 1478824634
+]
+2016-11-11 08:37:19 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 51778 bytes' 
+
+in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\iwebshop\\my_...', 88, Array)
+#1 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('E:\\iwebshop\\my_...', Array)
+#3 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-11-11 08:37:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'adminlog/index'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => 'e897332a6d74a66ba580aca3e0bb2e82fa528e93e47ebbc50accf405b335cad6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"v5l3bAom6DtQ-VFnOws4LbghMVmbO_0E\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1772'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=adminlog/index'
+    'QUERY_STRING' => 'r=adminlog/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51891'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=e897332a6d74a66ba580aca3e0bb2e82fa528e93e47ebbc50accf405b335cad6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22v5l3bAom6DtQ-VFnOws4LbghMVmbO_0E%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478824639.2109
+    'REQUEST_TIME' => 1478824639
+]
+2016-11-11 08:37:32 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 51778 bytes' 
+
+in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\iwebshop\\my_...', 88, Array)
+#1 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('E:\\iwebshop\\my_...', Array)
+#3 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-11-11 08:37:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'adminlog/index'
+]
+
+$_POST = [
+    '_csrf' => 'RGYxOVJfTWc3JFtqHwUAPQ5RZ0MbHiMTGwx.bzgFfx4oPGJOHDZ6DA=='
+    'u_name' => 'admin'
+    'u_pwd' => 'cyy5201314'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => '3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1772'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=adminlog/index'
+    'QUERY_STRING' => 'r=adminlog/index'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51904'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=adminlog/index'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://www.iwebshop.com'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '96'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478824651.9346
+    'REQUEST_TIME' => 1478824651
+]
+2016-11-11 08:37:34 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 51778 bytes' 
+
+in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\iwebshop\\my_...', 88, Array)
+#1 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('E:\\iwebshop\\my_...', Array)
+#3 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-11-11 08:37:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'adminlog/index'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => '3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1772'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=adminlog/index'
+    'QUERY_STRING' => 'r=adminlog/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51904'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=adminlog/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478824654.4618
+    'REQUEST_TIME' => 1478824654
+]
+2016-11-11 08:37:43 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 51778 bytes' 
+
+in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\iwebshop\\my_...', 88, Array)
+#1 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('E:\\iwebshop\\my_...', Array)
+#3 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-11-11 08:37:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'adminlog/index'
+]
+
+$_POST = [
+    '_csrf' => 'LS45SHc1dE1ebFMbOm85F2cZbzI.dBo5ckR2Hh1vRjRBdGo/OVxDJg=='
+    'u_name' => 'admin'
+    'u_pwd' => 'admin'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => '3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1772'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=adminlog/index'
+    'QUERY_STRING' => 'r=adminlog/index'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51908'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=adminlog/index'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://www.iwebshop.com'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '93'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478824663.2053
+    'REQUEST_TIME' => 1478824663
+]
+2016-11-11 08:37:44 [127.0.0.1][-][abadncg8p0is23sabrrv4id9n3][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot use backend\assets\AppAsset as AppAsset because the name is already in use' in E:\iwebshop\my_project\recruit\job\backend\views\layouts\main.php:350
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-11 08:37:43 [127.0.0.1][-][abadncg8p0is23sabrrv4id9n3][info][application] $_GET = [
+    'r' => 'admin/index'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => '3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1772'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=admin/index'
+    'QUERY_STRING' => 'r=admin/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51908'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=adminlog/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478824663.8573
+    'REQUEST_TIME' => 1478824663
+]
+2016-11-11 08:37:44 [127.0.0.1][-][abadncg8p0is23sabrrv4id9n3][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 51778 bytes' 
+
+in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\iwebshop\\my_...', 88, Array)
+#1 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('E:\\iwebshop\\my_...', Array)
+#3 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\base\ErrorHandler.php(247): yii\log\Logger->flush(true)
+#7 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#8 {main}
+2016-11-11 08:37:43 [127.0.0.1][-][abadncg8p0is23sabrrv4id9n3][info][application] $_GET = [
+    'r' => 'admin/index'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => '3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1772'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=admin/index'
+    'QUERY_STRING' => 'r=admin/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51908'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=adminlog/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478824663.8573
+    'REQUEST_TIME' => 1478824663
+]
+2016-11-11 08:49:28 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 51778 bytes' 
+
+in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\iwebshop\\my_...', 88, Array)
+#1 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('E:\\iwebshop\\my_...', Array)
+#3 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-11-11 08:49:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/index'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => '3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1776'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=admin/index'
+    'QUERY_STRING' => 'r=admin/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52004'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=adminlog/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478825367.6916
+    'REQUEST_TIME' => 1478825367
+]
+2016-11-11 08:49:34 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 51778 bytes' 
+
+in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\iwebshop\\my_...', 88, Array)
+#1 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('E:\\iwebshop\\my_...', Array)
+#3 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-11-11 08:49:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'manager/manager-add'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => '3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1776'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=manager/manager-add'
+    'QUERY_STRING' => 'r=manager/manager-add'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52007'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=admin/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478825374.115
+    'REQUEST_TIME' => 1478825374
+]
+2016-11-11 08:49:37 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 51778 bytes' 
+
+in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\iwebshop\\my_...', 88, Array)
+#1 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('E:\\iwebshop\\my_...', Array)
+#3 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-11-11 08:49:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => '3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1776'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=manager/manager-list'
+    'QUERY_STRING' => 'r=manager/manager-list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52017'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=manager/manager-add'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478825377.3851
+    'REQUEST_TIME' => 1478825377
+]
+2016-11-11 08:49:41 [127.0.0.1][-][abadncg8p0is23sabrrv4id9n3][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in E:\iwebshop\my_project\recruit\job\backend\models\JobPosition.php:4
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-11 08:49:40 [127.0.0.1][-][abadncg8p0is23sabrrv4id9n3][info][application] $_GET = [
+    'r' => 'position/add'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => '3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1776'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=position/add'
+    'QUERY_STRING' => 'r=position/add'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52017'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=manager/manager-list'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478825380.8383
+    'REQUEST_TIME' => 1478825380
+]
+2016-11-11 08:49:41 [127.0.0.1][-][abadncg8p0is23sabrrv4id9n3][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 51778 bytes' 
+
+in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\iwebshop\\my_...', 88, Array)
+#1 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('E:\\iwebshop\\my_...', Array)
+#3 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\base\ErrorHandler.php(247): yii\log\Logger->flush(true)
+#7 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#8 {main}
+2016-11-11 08:49:40 [127.0.0.1][-][abadncg8p0is23sabrrv4id9n3][info][application] $_GET = [
+    'r' => 'position/add'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => '3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1776'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=position/add'
+    'QUERY_STRING' => 'r=position/add'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52017'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=manager/manager-list'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478825380.8383
+    'REQUEST_TIME' => 1478825380
+]
+2016-11-11 08:49:50 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 51778 bytes' 
+
+in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\iwebshop\\my_...', 88, Array)
+#1 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('E:\\iwebshop\\my_...', Array)
+#3 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-11-11 08:49:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'manager/manager-list'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => '3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1776'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=manager/manager-list'
+    'QUERY_STRING' => 'r=manager/manager-list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52022'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=manager/manager-add'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478825390.2519
+    'REQUEST_TIME' => 1478825390
+]
+2016-11-11 08:50:36 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 51778 bytes' 
+
+in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\iwebshop\\my_...', 88, Array)
+#1 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('E:\\iwebshop\\my_...', Array)
+#3 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-11-11 08:50:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'position/add'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => '3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1776'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=position/add'
+    'QUERY_STRING' => 'r=position/add'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52037'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=manager/manager-list'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478825436.2425
+    'REQUEST_TIME' => 1478825436
+]
+2016-11-11 08:50:39 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 51778 bytes' 
+
+in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\iwebshop\\my_...', 88, Array)
+#1 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('E:\\iwebshop\\my_...', Array)
+#3 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-11-11 08:50:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'position/list'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => '3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1776'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=position/list'
+    'QUERY_STRING' => 'r=position/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52037'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=position/add'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478825439.5367
+    'REQUEST_TIME' => 1478825439
+]
+2016-11-11 08:50:44 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 51778 bytes' 
+
+in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\iwebshop\\my_...', 88, Array)
+#1 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('E:\\iwebshop\\my_...', Array)
+#3 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-11-11 08:50:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'category/categoryadd'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => '3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1776'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=category/categoryadd'
+    'QUERY_STRING' => 'r=category/categoryadd'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52037'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=position/list'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478825444.518
+    'REQUEST_TIME' => 1478825444
+]
+2016-11-11 08:50:47 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 51778 bytes' 
+
+in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\iwebshop\\my_...', 88, Array)
+#1 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('E:\\iwebshop\\my_...', Array)
+#3 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-11-11 08:50:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'category/list'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => '3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1776'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=category/list'
+    'QUERY_STRING' => 'r=category/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52044'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=category/categoryadd'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478825447.5232
+    'REQUEST_TIME' => 1478825447
+]
+2016-11-11 08:50:55 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 51778 bytes' 
+
+in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\iwebshop\\my_...', 88, Array)
+#1 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('E:\\iwebshop\\my_...', Array)
+#3 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-11-11 08:50:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'category/list'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => '3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1776'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=category/list'
+    'QUERY_STRING' => 'r=category/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52044'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=category/categoryadd'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478825455.2726
+    'REQUEST_TIME' => 1478825455
+]
+2016-11-11 08:52:19 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 51778 bytes' 
+
+in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\iwebshop\\my_...', 88, Array)
+#1 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('E:\\iwebshop\\my_...', Array)
+#3 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-11-11 08:52:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'category/list'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => '3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1776'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=category/list'
+    'QUERY_STRING' => 'r=category/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52065'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=category/categoryadd'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478825539.0024
+    'REQUEST_TIME' => 1478825539
+]
+2016-11-11 08:52:22 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 51778 bytes' 
+
+in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\iwebshop\\my_...', 88, Array)
+#1 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('E:\\iwebshop\\my_...', Array)
+#3 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-11-11 08:52:22 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'company/companyadd'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => '3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1776'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=company/companyadd'
+    'QUERY_STRING' => 'r=company/companyadd'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52066'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=category/list'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478825542.6356
+    'REQUEST_TIME' => 1478825542
+]
+2016-11-11 08:54:06 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 51778 bytes' 
+
+in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\iwebshop\\my_...', 88, Array)
+#1 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('E:\\iwebshop\\my_...', Array)
+#3 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-11-11 08:54:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'company/companyadd'
+]
+
+$_COOKIE = [
+    'iweb_step' => 'cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx'
+    'iweb_captcha' => '0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ'
+    'iweb_admin_id' => 'dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0'
+    'iweb_admin_name' => '38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg'
+    'iweb_admin_pwd' => '38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg'
+    'iweb_admin_role_name' => '5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg'
+    'iweb_shoppingcart' => '3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0'
+    'iweb_safecode' => '4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA'
+    'CNZZDATA155540' => 'cnzz_eid=1756329213-1478310491-http%3A%2F%2Fwww.iwebshop.com%2F&ntime=1478764162'
+    'PHPSESSID' => 'abadncg8p0is23sabrrv4id9n3'
+    '_csrf' => '3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ad_uname' => 'admin'
+    'admin_id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1776'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=company/companyadd'
+    'QUERY_STRING' => 'r=company/companyadd'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52102'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'iweb_step=cbef35308cMjAwNDYwMDAwNDk4MDlkN2I2NDc1ZWA9MGE2ZDsyYGM0MTc4NjczMjgx; iweb_captcha=0a72dc7803OTg4MTUwMTAwMTA5NGplYWY4PGo1ODsyOWEzMjUzOTBzYWlpbQ; iweb_admin_id=dccff3f13dODA4OTUxMjUwOTVjMzBlMWc3NDkyOTJgM2MzNTkyNDI0; iweb_admin_name=38caf6e3c7MTkwMzc5NTUyMTY4OTo6a2FjYWMzMTAxbGc4NDY1YTRkZ2RsZg; iweb_admin_pwd=38caf6e3c7MTkwMzc5NTUyMTY4PzsyPWYzYmM1OTE0azQxNTNjNGNmNWpnPjY0MTZlZDM3NjxtOmBmYWZmNWQ5N2YwODgzZg; iweb_admin_role_name=5c13781e40MTkwMDAwMDcwMzBjYjw3NWs5MTZkMDE1YzVjNGc5YjDutIDvvqXnqKPnkITlkZg; iweb_shoppingcart=3a262be232NjA4MDAwMzIwNDY2ZzA5ZmQyZmI2NjExOTs2PjE0OTd7JmdvbG1zLztTXyQmeHFvZ3xkdyc4W1R0; iweb_safecode=4586a182b8NjI3NDAxMDA1NzFiMTVsZ2A5ODdhNzhpYztnNj5hMmY2NmIwMW5hMTFjODsyNDIwNTI1MjJsZjQ5NTc5bTFiMA; CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478764162; PHPSESSID=abadncg8p0is23sabrrv4id9n3; _csrf=3a096240dde8ca93c84ad82833d96a336e42148f1e618e03eb96ec1ae093884ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sBjSMZMZJ7VzIAnt_jOVjZ2ylZSwNi7k%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=category/list'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.iwebshop.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478825646.4945
+    'REQUEST_TIME' => 1478825646
+]
