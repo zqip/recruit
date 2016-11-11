@@ -18,12 +18,4 @@ class AdminController extends CommonController
     {
         return $this->render('index');
     }
-    /**
-     * 管理员添加
-     * @brief 管理员添加
-     * */
-    public function actionAdminadd(){
-        return $this->render('adminAdd');
-    }
-
 }
