@@ -15,9 +15,13 @@
     <![endif]-->
 
     <!-- page specific plugin styles -->
-
+        <link rel="stylesheet" href="assets/css/jquery-ui-1.10.3.custom.min.css" />
+        <link rel="stylesheet" href="assets/css/chosen.css" />
+        <link rel="stylesheet" href="assets/css/datepicker.css" />
+        <link rel="stylesheet" href="assets/css/bootstrap-timepicker.css" />
+        <link rel="stylesheet" href="assets/css/daterangepicker.css" />
+        <link rel="stylesheet" href="assets/css/colorpicker.css" />
     <!-- fonts -->
-
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
 
     <!-- ace styles -->
@@ -152,17 +156,19 @@
 
                         <div class="space-4"></div>
 
-                         <div class="form-group">
+                          <div class="form-group">
                             <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 公司LOGO： </label>
-
+                                   <input type="file" name='comp_logo'/>
                             <div class="col-sm-5">
-                                <input type="file" id="comp_logo" name="comp_abb" placeholder="" class="col-xs-10 col-sm-5" />
+                                            
                             </div>
-                        </div>
-
-                        <div class="space-4"></div>
-
-                        <div class="form-group">
+                             </div>
+                         
+                            <div class="space-4"></div> 
+                                       
+                                                       
+                                                    
+                                      <div class="form-group">
                             <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 父级分类：</label>
 
                             <div class="col-sm-2">
@@ -172,34 +178,8 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 是否热门：</label>
-                            <div class="radio">
-                                <label>
-                                    <input name="is_hot" type="radio" class="ace" value="1" checked/>
-                                    <span class="lbl">是</span>
-                                </label>&nbsp;&nbsp;
-                                <label>
-                                    <input name="is_hot" type="radio" class="ace" value="0"/>
-                                    <span class="lbl">否</span>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="space-4"></div>
-                        <div class="form-group">
-                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 是否最新：</label>
-                            <div class="radio">
-                                <label>
-                                    <input name="is_new" type="radio" class="ace" value="1" checked/>
-                                    <span class="lbl">是</span>
-                                </label>&nbsp;&nbsp;
-                                <label>
-                                    <input name="is_new" type="radio" class="ace" value="0"/>
-                                    <span class="lbl">否</span>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="space-4"></div>
+                       
+                        
                         <div class="form-group">
                             <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 是否显示：</label>
                             <div class="radio">
@@ -364,7 +344,6 @@
 
     });
 </script>
-
 
 
 </body>
