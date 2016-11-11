@@ -43,12 +43,16 @@ class ManagerController extends CommonController
             $res=$con->createCommand()
                      ->insert('job_admin_user',['u_name'=>$data['u_name'],'u_pwd'=>$u_pwd])
                      ->execute();
-            if($res){
+            $uid=$con->getLastInsertId();
+            $res1=$con->createCommand()
+                ->insert('job_user_role',['uid'=>$uid,'rid'=>$data['role']])
+                ->execute();
+            if($res && $res1){
                 echo "<script>alert('添加成功');location.href='?r=manager/manager-list'</script>";
             }else{
                 echo "<script>alert('添加失败');location.href='?r=manager/manager-add'</script>";
             }
-            print_r($data);
+            //echo $uid;
         }else{
            $query=new \yii\db\Query();
            $roleData=$query->select('*')
