@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="assets/css/bootstrap-timepicker.css" />
         <link rel="stylesheet" href="assets/css/daterangepicker.css" />
         <link rel="stylesheet" href="assets/css/colorpicker.css" />
+
     <!-- fonts -->
 
     <!-- fonts -->
@@ -48,6 +49,7 @@
     <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
+    <script src="assets/js/jquery.autosize.min.js"></script>
     <![endif]-->
     <!--[if IE 7]>
     <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css" />
@@ -108,14 +110,14 @@
                 <div class="col-xs-12">
                     <!-- PAGE CONTENT BEGINS -->
 
-                    <form class="form-horizontal" role="form" id="cateForm" action="index.php?r=category/categoryadd" method="post">
+                    <form class="form-horizontal"  id="comForm" action="?r=company/companyadd" method="post" enctype="multipart/form-data">
                         <input type="hidden" name="_csrf" id="_csrf" value="<?= Yii::$app->request->csrfToken ?>">
-                        <input type="hidden" name="utype" value="1" />
+                        <input type="hidden" name="utype"  value="1" />
                         <div class="form-group">
                             <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 公司名称： </label>
 
                             <div class="col-sm-5">
-                                <input type="text" id="company_name" name="company_name" placeholder="公司名称" class="col-xs-10 col-sm-5" />
+                                <input type="text"  name="comp_name" placeholder="公司名称" class="col-xs-10 col-sm-5" />
                             </div>
                         </div>
 
@@ -133,7 +135,7 @@
                             <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 邮箱： </label>
 
                             <div class="col-sm-5">
-                                <input type="text" id="username" name="username" placeholder="969842624@qq.com" class="col-xs-10 col-sm-5" /><span style="color:red">用于登录</span>
+                                <input type="email" id="username" name="username" placeholder="******@sina.cn" class="col-xs-10 col-sm-5" /><span style="color:red">用于登录,不支持QQ邮箱</span>
                             </div>
                         </div>
 
@@ -164,37 +166,89 @@
                             <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 公司LOGO： </label>
 
                             <div class="col-sm-5">
-                                <input type="file" id="comp_logo" name="comp_abb" placeholder="" class="col-xs-10 col-sm-5" />
+                                <input type="file" id="comp_logo" name="comp_logo" placeholder="" class="col-xs-10 col-sm-5" />
                             </div>
                         </div>
 
                         <div class="space-4"></div>
 
                         <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 公司网址： </label>
 
-                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 父级分类：</label>
+                            <div class="col-sm-5">
+                                <input type="text" id="comp_url" name="comp_url" placeholder="http://www.baidu.com" class="col-xs-10 col-sm-5" />
+                            </div>
+                        </div>
+
+
+
+                        <div class="space-4"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 公司所在城市： </label>
+
+                            <div class="col-sm-5">
+                                <input type="text" id="comp_city" name="comp_city" placeholder="北京市" class="col-xs-10 col-sm-5" />
+                            </div>
+                        </div>
+
+                        <div class="space-4"></div>
+
+
+                        <div class="form-group">
+
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 行业：</label>
 
                             <div class="col-sm-2">
-                                <select class="form-control" id="form-field-select-1" name="parent_id">
-                                    <option value="0">顶级分类</option>
-                                
+                                <select class="form-control" id="industry_sector" name="industry_sector">
+                                    <option value="移动互联网">移动互联网</option>
+                                    <option value="教育">教育</option>
+                                    <option value="云计算大数据">云计算大数据</option>
+                                    <option value="电子商务">电子商务</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="space-4"></div>
+
+
+                        <div class="form-group">
+
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 融资：</label>
+
+                            <div class="col-sm-2">
+                                <select class="form-control" id="comp_stage" name="comp_stage">
+                                    <option value="未融资">未融资</option>
+                                    <option value="移动互联网">A轮</option>
+                                    <option value="移动互联网">B轮</option>
+                                    <option value="移动互联网">C轮</option>
+                                    <option value="移动互联网">D轮及以上</option>
                                 </select>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 是否显示：</label>
-                            <div class="radio">
-                                <label>
-                                    <input name="is_show" type="radio" class="ace" value="1" checked/>
-                                    <span class="lbl">是</span>
-                                </label>&nbsp;&nbsp;
-                                <label>
-                                    <input name="is_show" type="radio" class="ace" value="0"/>
-                                    <span class="lbl">否</span>
-                                </label>
+
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 公司规模：</label>
+
+                            <div class="col-sm-2">
+                                <select class="form-control" id="comp_scale" name="comp_scale">
+                                    <option value="少于15人">少于15人</option>
+                                    <option value="100人">100人</option>
+                                    <option value="100--1000人">100--1000人</option>
+                                    <option value="1000人以上">1000人以上</option>
+                                </select>
                             </div>
                         </div>
+                        <div class="form-group">
+
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 公司介绍：</label>
+
+                            <div class="col-sm-2">
+                                <textarea id="comp_self" name="comp_self" id="comp_self" class="autosize-transition form-control"></textarea>
+                            </div>
+                        </div>
+
                         <div class="space-4"></div>
                         <div class="clearfix form-actions">
                             <div class="col-md-offset-3 col-md-9">
@@ -330,18 +384,42 @@
 <script src="style/js/jquery.1.10.1.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="style/js/jquery.lib.min.js"></script>
 <script>
-    $("#cateForm").validate({
+    $("#comForm").validate({
         rules: {
-            position_name:{
+            comp_name:{
                 required: true
             },
-        },
-        messages: {
-            position_name:{
-                required:"<font color = 'red'>请输入职位名称 </font>"
+            username:{
+                required:true,
+                email:true
             },
+            password:{
+                required:true,
+                rangelength:[3,10]
+            },
+            c_password:{
+                equalTo:"#password"
+            }
 
         },
+        messages: {
+            comp_name:{
+                required:"<font color = 'red'>请输入公司名称 </font>"
+            },
+            username:{
+                email:"<font color = 'red'>正确的邮箱地址 </font>",
+                required:"<font color = 'red'>正确的邮箱地址 </font>"
+            },
+            password:{
+                required: "<font color = 'red'>不能为空</font>",
+                rangelength: $.format("密码最小长度:{0}, 最大长度:{1}。")
+            },
+            c_password:{
+                equalTo:"<font color = 'red'>两次密码输入不一致</font>"
+            }
+
+
+        }
 
 
     });
