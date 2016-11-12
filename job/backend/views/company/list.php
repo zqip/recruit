@@ -151,7 +151,7 @@ use yii\widgets\LinkPager;
                                 <tr>
                                     <td class="center">
                                         <label>
-                                            <input type="checkbox" class="ace" name="checkSingle" value=""/>
+                                            <input type="checkbox" class="ace" name="checkSingle" value="<?php echo $val['u_id']?>"/>
                                             <span class="lbl"></span>
                                         </label>
                                     </td>
@@ -166,7 +166,7 @@ use yii\widgets\LinkPager;
                                         <?php echo $val['username']?>
                                     </td>
                                     <td>
-                                        <?php echo $val['comp_logo']?>
+                                        <img width="80px" height="50px" src="<?php echo $val['comp_logo']?>"/>
                                     </td>
                                     <td>
                                         <?php echo $val['comp_city']?>
@@ -176,9 +176,14 @@ use yii\widgets\LinkPager;
                                     </td>
 
                                     <td class="hidden-480">
-                                            <select>
-                                                <option value="0">待审核</option>
-                                                <option value="1">已审核</option>
+                                            <select class="select" name="select" sid="<?php echo $val['id']?>">
+                                                <?php if ($val['is_success'] == 0): ?>
+                                                    <option value="0" selected>待审核</option>
+                                                    <option value="1">已审核</option>
+                                                <?php else: ?>
+                                                    <option value="0">待审核</option>
+                                                    <option value="1" selected>已审核</option>
+                                                <?php endif; ?>
                                             </select>
                                     </td>
 
@@ -188,11 +193,11 @@ use yii\widgets\LinkPager;
                                                 <i class="icon-zoom-in bigger-130"></i>
                                             </a>
 
-                                            <a class="green" href="index.php?r=category/update&id=<?php echo 1?>">
+                                            <a class="green" href="index.php?r=company/update&id=<?php echo $val['u_id']?>&page=<?php echo $nowPage?>">
                                                 <i class="icon-pencil bigger-130"></i>
                                             </a>
 
-                                            <a class="red" href="index.php?r=category/del&id=<?php echo 1?>&page=<?php echo 1?>">
+                                            <a class="red" href="index.php?r=company/del&id=<?php echo$val['u_id']?>&page=<?php echo $nowPage?>">
                                                 <i class="icon-trash bigger-130"></i>
                                             </a>
                                         </div>
@@ -241,14 +246,19 @@ use yii\widgets\LinkPager;
                 <?php
                 echo LinkPager::widget([
                     'pagination' => $pages,
+                    'maxButtonCount'=>3,
+                    'firstPageLabel' => '首页',
+                    'lastPageLabel' => '最后一页',
+                    'prevPageLabel' => '上一页',
+                    'nextPageLabel' => '下一页',
                 ]);
                 ?>
-
-
+                <input type="hidden" value="<?php echo $nowPage?>" id="nowPage"/>
                 <input type="button" value="全选" id="all" style="border: 1px solid #c0c0c0"/>
                 <input type="button" value="全不选" id="no" style="border: 1px solid #c0c0c0"/>
                 <input type="button" value="多个删除" id="delsome" style="border: 1px solid #c0c0c0"/>
             </div>
+
 
             <!--end list-->
             <div class="row">
@@ -381,7 +391,8 @@ use yii\widgets\LinkPager;
         //批量删除
 
         $('#delsome').click(function(){
-            var page = $('#page').val();
+            var page = $('#nowPage').val();
+
             var checkbox = $("[name=checkSingle]:checked");
             var str='';
             //console.log(checkbox.length)
@@ -395,21 +406,41 @@ use yii\widgets\LinkPager;
             str = str.substr(1)
             $.ajax({
                 type: "GET",
-                url: "?r=category/somedel",
-                data: {str:str,page:page},
+                url: "?r=company/somedel",
+                data: {str:str},
                 dataType:'json',
                 success: function(msg){
-                    //alert( "Data Saved: " + msg );
-                    console.log(msg)
+                    console.log(msg[[status]])
                     if(msg['status']==1){
-                        alert('删除成功！');location.href="?r=category/list&page="+page;
+                        alert('删除成功！');location.href="?r=company/list&page="+page;
                     }else{
-                        alert('删除失败,请确保其他数据不受影响！');location.href="?r=category/list&page="+page;
+                        alert('删除失败!');location.href="?r=company/list&page="+page;
                     }
                 }
             });
         })
     })
+    $(function(){
+        $(".select").change(function(){
+            var id = $(this).attr('sid');
+            var data = $(this).val()
+            $.ajax({
+                type: "POST",
+                url: "?r=company/dosave",
+                data: {id:id,data:data},
+                dataType:'json',
+                success: function(msg){
+                    if(msg['status']==0){
+                       alert('网络错误');location.reload([bForceGet]);//错误刷新......
+                    }
+                }
+            });
+        })
+    })
+
+
+
+
 </script>
 
 
