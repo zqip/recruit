@@ -778,6 +778,7 @@ $_SERVER = [
     'REQUEST_TIME' => 1478333970
 ]
 <<<<<<< HEAD
+<<<<<<< HEAD
 2016-11-06 19:11:08 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'yiiproject'' in D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Connection.php:600
 Stack trace:
 #0 D:\WAMP\phpstudy\WWW\recruit\job\vendor\yiisoft\yii2\db\Connection.php(600): PDO->__construct('mysql:host=127....', 'root', 'root', NULL)
@@ -937,6 +938,8 @@ Array
     'PHPSESSID' => 'kdrjise6iu6bk5irtkv7p3jaa5'
     '_csrf' => 'd7a9c0eba20de7ba3cf8f31aa999b2d47aaf878c4ee9ba533733c7fb2445bb8ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rkK06auqw-HFrwlDfvAzfDbrcrpoLa9Y\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
 2016-11-08 11:38:57 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: category/categoryAdd' in E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\base\Controller.php:125
 Stack trace:
 #0 E:\iwebshop\my_project\recruit\job\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('categoryAdd', Array)
@@ -969,6 +972,9 @@ $_COOKIE = [
     'iweb_user_pwd' => '3d159f7d3fNTE5MDAwNzAwN2NmYDAwNzVsO2IwMTQ5NmszZmVmNTQ'
     'iweb_safecode' => '3db966d223NDQwNDA3MDU5NDNiNTVlYWE5ODZoMDxhYTJlNzZiMm01NGUwMGZhOTBlODg3NDIzMjA0MjNnZjw/Mzc4YThkMw'
     'iweb_shoppingcart' => '3db966d223NDQwNDA3MDU5NDExZTAxYWQyYmI7NTA5NjM2NzU0MT1+JGdvbmRzLj9bXSQgcHJvZHBldCc4W1V7'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -976,22 +982,29 @@ $_SESSION = [
     '__flash' => []
     'ad_uname' => 'admin'
 <<<<<<< HEAD
+<<<<<<< HEAD
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'admin_id' => '1'
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1864'
@@ -1080,6 +1093,8 @@ Array
     'PHPSESSID' => 'kdrjise6iu6bk5irtkv7p3jaa5'
     '_csrf' => 'd7a9c0eba20de7ba3cf8f31aa999b2d47aaf878c4ee9ba533733c7fb2445bb8ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rkK06auqw-HFrwlDfvAzfDbrcrpoLa9Y\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '436'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -1147,6 +1162,9 @@ $_COOKIE = [
     'iweb_user_pwd' => '3d159f7d3fNTE5MDAwNzAwN2NmYDAwNzVsO2IwMTQ5NmszZmVmNTQ'
     'iweb_safecode' => '3db966d223NDQwNDA3MDU5NDNiNTVlYWE5ODZoMDxhYTJlNzZiMm01NGUwMGZhOTBlODg3NDIzMjA0MjNnZjw/Mzc4YThkMw'
     'iweb_shoppingcart' => '3db966d223NDQwNDA3MDU5NDExZTAxYWQyYmI7NTA5NjM2NzU0MT1+JGdvbmRzLj9bXSQgcHJvZHBldCc4W1V7'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -1154,22 +1172,29 @@ $_SESSION = [
     '__flash' => []
     'ad_uname' => 'admin'
 <<<<<<< HEAD
+<<<<<<< HEAD
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'admin_id' => '1'
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1864'
@@ -1258,6 +1283,8 @@ Array
     'PHPSESSID' => 'kdrjise6iu6bk5irtkv7p3jaa5'
     '_csrf' => 'd7a9c0eba20de7ba3cf8f31aa999b2d47aaf878c4ee9ba533733c7fb2445bb8ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rkK06auqw-HFrwlDfvAzfDbrcrpoLa9Y\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '436'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -1328,6 +1355,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -1335,22 +1365,29 @@ $_SESSION = [
     '__flash' => []
     'ad_uname' => 'admin'
 <<<<<<< HEAD
+<<<<<<< HEAD
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'admin_id' => '1'
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1864'
@@ -1439,6 +1476,8 @@ Array
     'PHPSESSID' => 'kdrjise6iu6bk5irtkv7p3jaa5'
     '_csrf' => 'd7a9c0eba20de7ba3cf8f31aa999b2d47aaf878c4ee9ba533733c7fb2445bb8ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rkK06auqw-HFrwlDfvAzfDbrcrpoLa9Y\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1748'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -1513,6 +1552,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -1520,22 +1562,29 @@ $_SESSION = [
     '__flash' => []
     'ad_uname' => 'admin'
 <<<<<<< HEAD
+<<<<<<< HEAD
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'admin_id' => '1'
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1864'
@@ -1582,6 +1631,8 @@ Stack trace:
     'PHPSESSID' => 'kdrjise6iu6bk5irtkv7p3jaa5'
     '_csrf' => 'd7a9c0eba20de7ba3cf8f31aa999b2d47aaf878c4ee9ba533733c7fb2445bb8ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rkK06auqw-HFrwlDfvAzfDbrcrpoLa9Y\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1748'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -1656,6 +1707,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -1663,22 +1717,29 @@ $_SESSION = [
     '__flash' => []
     'ad_uname' => 'admin'
 <<<<<<< HEAD
+<<<<<<< HEAD
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'admin_id' => '1'
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1976'
@@ -1767,6 +1828,8 @@ Array
     'PHPSESSID' => 'kdrjise6iu6bk5irtkv7p3jaa5'
     '_csrf' => 'd7a9c0eba20de7ba3cf8f31aa999b2d47aaf878c4ee9ba533733c7fb2445bb8ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rkK06auqw-HFrwlDfvAzfDbrcrpoLa9Y\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1776'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -1841,6 +1904,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -1848,22 +1914,29 @@ $_SESSION = [
     '__flash' => []
     'ad_uname' => 'admin'
 <<<<<<< HEAD
+<<<<<<< HEAD
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'admin_id' => '1'
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1976'
@@ -1952,6 +2025,8 @@ Array
     'PHPSESSID' => 'kdrjise6iu6bk5irtkv7p3jaa5'
     '_csrf' => 'd7a9c0eba20de7ba3cf8f31aa999b2d47aaf878c4ee9ba533733c7fb2445bb8ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rkK06auqw-HFrwlDfvAzfDbrcrpoLa9Y\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1776'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -2026,6 +2101,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -2033,22 +2111,29 @@ $_SESSION = [
     '__flash' => []
     'ad_uname' => 'admin'
 <<<<<<< HEAD
+<<<<<<< HEAD
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'admin_id' => '1'
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1976'
@@ -2137,6 +2222,8 @@ Array
     'PHPSESSID' => 'kdrjise6iu6bk5irtkv7p3jaa5'
     '_csrf' => 'd7a9c0eba20de7ba3cf8f31aa999b2d47aaf878c4ee9ba533733c7fb2445bb8ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rkK06auqw-HFrwlDfvAzfDbrcrpoLa9Y\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1912'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -2208,6 +2295,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -2215,22 +2305,29 @@ $_SESSION = [
     '__flash' => []
     'ad_uname' => 'admin'
 <<<<<<< HEAD
+<<<<<<< HEAD
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'admin_id' => '1'
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1976'
@@ -2319,6 +2416,8 @@ Array
     'PHPSESSID' => 'kdrjise6iu6bk5irtkv7p3jaa5'
     '_csrf' => 'd7a9c0eba20de7ba3cf8f31aa999b2d47aaf878c4ee9ba533733c7fb2445bb8ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rkK06auqw-HFrwlDfvAzfDbrcrpoLa9Y\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1720'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -2393,6 +2492,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -2400,22 +2502,29 @@ $_SESSION = [
     '__flash' => []
     'ad_uname' => 'admin'
 <<<<<<< HEAD
+<<<<<<< HEAD
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'admin_id' => '1'
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1976'
@@ -2537,6 +2646,32 @@ $_SERVER = [
     'SystemRoot' => 'C:\\windows'
     'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478332092; PHPSESSID=k1kne8uokprma2rrvo0ndglpb4; _csrf=6ae87046542e10e43c1ee1b62a94483e4010d63d5996096b9d1c0ff2f04a72dda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229Yf9Gl-n3wt7O-vKYHNCN0lg2zL8FoFA%22%3B%7D; iweb_shoppingcart=ce13d4fae8MDAwMzEwNzAwMDMybDAzYm06ZmsxOzQ%2BNTA3PjY3MTx7Jm5nb2xzJjNaWSQmcHJqbX1jdSI6Xl10; iweb_captcha=5b3012b57dOTAwNTAwMDkwMDA1NWo2MGEzYzU0NDc7ZTY1MTJnZzFybXNhcg; iweb_admin_id=86d9257ad9NDcxNjcwMDUwMDNhMzBmNGU0NDg6OTRiM2EzNTw3NzE3; iweb_admin_name=af5480329cMDY2ODM0MzY0NjU4NTo5a2BjZW03MTcyZGE7OTA1YTBlZGRpbg; iweb_admin_pwd=af5480329cMDY2ODM0MzY0NjU4MzsxPWczZm0xOTY3YzIyODVjNGdnNmpiNjM0NTZhZTAzPjBhP2BmZ29mPGE5M2MwOT4xZg; iweb_admin_role_name=b902ec6c44MDE0ODMwNTQwMDFkZTkxNGI%2FNDVlMjE2ZzVmNG04ZDHtvoDnuqfnqKHukIbskZA; iweb_user_id=fcaab28590NzYxNjAwMDAwM2ZvYzIwNzJlP2U1OTc5O2MzZmVmMDQ; iweb_username=fcaab28590NzYxNjAwMDAwM2ZvYzIwNzJlP2U1OTc5O2MzZmVmMDQ; iweb_head_ico=a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ; iweb_safecode=a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ%2BZTpjMg; iweb_user_pwd=a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+=======
+    'PHPRC' => 'E:/phptudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1720'
+    'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
+    'REQUEST_URI' => '/my_project/recruit/job/backend/web/index.php?r=category/categoryadd'
+    'QUERY_STRING' => 'r=category/categoryadd'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63932'
+    'SCRIPT_FILENAME' => 'E:/iwebshop/my_project/recruit/job/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/iwebshop'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/iwebshop'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.iwebshop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1756329213-1478310491-http%253A%252F%252Fwww.iwebshop.com%252F%26ntime%3D1478332092; PHPSESSID=k1kne8uokprma2rrvo0ndglpb4; _csrf=6ae87046542e10e43c1ee1b62a94483e4010d63d5996096b9d1c0ff2f04a72dda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229Yf9Gl-n3wt7O-vKYHNCN0lg2zL8FoFA%22%3B%7D; iweb_shoppingcart=ce13d4fae8MDAwMzEwNzAwMDMybDAzYm06ZmsxOzQ%2BNTA3PjY3MTx7Jm5nb2xzJjNaWSQmcHJqbX1jdSI6Xl10; iweb_captcha=5b3012b57dOTAwNTAwMDkwMDA1NWo2MGEzYzU0NDc7ZTY1MTJnZzFybXNhcg; iweb_admin_id=86d9257ad9NDcxNjcwMDUwMDNhMzBmNGU0NDg6OTRiM2EzNTw3NzE3; iweb_admin_name=af5480329cMDY2ODM0MzY0NjU4NTo5a2BjZW03MTcyZGE7OTA1YTBlZGRpbg; iweb_admin_pwd=af5480329cMDY2ODM0MzY0NjU4MzsxPWczZm0xOTY3YzIyODVjNGdnNmpiNjM0NTZhZTAzPjBhP2BmZ29mPGE5M2MwOT4xZg; iweb_admin_role_name=b902ec6c44MDE0ODMwNTQwMDFkZTkxNGI%2FNDVlMjE2ZzVmNG04ZDHtvoDnuqfnqKHukIbskZA; iweb_user_id=fcaab28590NzYxNjAwMDAwM2ZvYzIwNzJlP2U1OTc5O2MzZmVmMDQ; iweb_username=fcaab28590NzYxNjAwMDAwM2ZvYzIwNzJlP2U1OTc5O2MzZmVmMDQ; iweb_head_ico=a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ; iweb_safecode=a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ%2BZTpjMg; iweb_user_pwd=a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+>>>>>>> remotes/origin/cyy
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
     'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php?r=category/categoryadd'
     'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
@@ -2579,12 +2714,16 @@ $_COOKIE = [
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1976'
@@ -2673,6 +2812,8 @@ Array
     'PHPSESSID' => '1ik095598g97379sihaosfd5t3'
     '_csrf' => '85bd9f260138bb95debe601c3986ab60afdccfa75865939605e324bb9219123da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VbbyuOYpFJlK_NUPQEoWAg67bq8yufSS\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1752'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -2743,6 +2884,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -2750,22 +2894,29 @@ $_SESSION = [
     '__flash' => []
     'ad_uname' => 'admin'
 <<<<<<< HEAD
+<<<<<<< HEAD
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'admin_id' => '1'
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2012'
@@ -2825,6 +2976,8 @@ $_COOKIE = [
     'PHPSESSID' => 'ngflm5d94b4dhr8umcsgqakpm4'
     '_csrf' => '4040170656beedb0eb46e7f4cddd3abff5d9e0e311c7e83c2879966a67672d6fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vFI_jFVyZb5MLWC76dm1D6537UlTo88\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1752'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -2899,6 +3052,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -2910,7 +3066,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -2919,6 +3079,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1992'
@@ -2982,6 +3143,8 @@ $_COOKIE = [
     'PHPSESSID' => 'ngflm5d94b4dhr8umcsgqakpm4'
     '_csrf' => '4040170656beedb0eb46e7f4cddd3abff5d9e0e311c7e83c2879966a67672d6fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vFI_jFVyZb5MLWC76dm1D6537UlTo88\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1752'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -3056,6 +3219,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -3067,7 +3233,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -3076,6 +3246,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1912'
@@ -3136,6 +3307,8 @@ $_COOKIE = [
     'PHPSESSID' => 'ngflm5d94b4dhr8umcsgqakpm4'
     '_csrf' => '4040170656beedb0eb46e7f4cddd3abff5d9e0e311c7e83c2879966a67672d6fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vFI_jFVyZb5MLWC76dm1D6537UlTo88\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1752'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -3210,6 +3383,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -3221,7 +3397,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -3230,6 +3410,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1912'
@@ -3298,6 +3479,8 @@ $_COOKIE = [
     'PHPSESSID' => 'ngflm5d94b4dhr8umcsgqakpm4'
     '_csrf' => '4040170656beedb0eb46e7f4cddd3abff5d9e0e311c7e83c2879966a67672d6fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vFI_jFVyZb5MLWC76dm1D6537UlTo88\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1752'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -3372,6 +3555,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -3383,7 +3569,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -3392,6 +3582,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2024'
@@ -3454,6 +3645,8 @@ $_COOKIE = [
     'PHPSESSID' => 'ngflm5d94b4dhr8umcsgqakpm4'
     '_csrf' => '4040170656beedb0eb46e7f4cddd3abff5d9e0e311c7e83c2879966a67672d6fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vFI_jFVyZb5MLWC76dm1D6537UlTo88\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1912'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -3528,6 +3721,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -3539,7 +3735,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -3548,6 +3748,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2024'
@@ -3608,6 +3809,8 @@ $_COOKIE = [
     'PHPSESSID' => 'ngflm5d94b4dhr8umcsgqakpm4'
     '_csrf' => '4040170656beedb0eb46e7f4cddd3abff5d9e0e311c7e83c2879966a67672d6fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vFI_jFVyZb5MLWC76dm1D6537UlTo88\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1912'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -3682,6 +3885,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -3693,7 +3899,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -3702,6 +3912,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2024'
@@ -3761,6 +3972,8 @@ $_COOKIE = [
     'PHPSESSID' => 'ngflm5d94b4dhr8umcsgqakpm4'
     '_csrf' => '4040170656beedb0eb46e7f4cddd3abff5d9e0e311c7e83c2879966a67672d6fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vFI_jFVyZb5MLWC76dm1D6537UlTo88\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1912'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -3835,6 +4048,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -3846,7 +4062,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -3855,6 +4075,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2024'
@@ -3914,6 +4135,8 @@ $_COOKIE = [
     'PHPSESSID' => 'ngflm5d94b4dhr8umcsgqakpm4'
     '_csrf' => '4040170656beedb0eb46e7f4cddd3abff5d9e0e311c7e83c2879966a67672d6fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vFI_jFVyZb5MLWC76dm1D6537UlTo88\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1912'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -3988,6 +4211,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -3999,7 +4225,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -4008,6 +4238,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2024'
@@ -4067,6 +4298,8 @@ $_COOKIE = [
     'PHPSESSID' => 'ngflm5d94b4dhr8umcsgqakpm4'
     '_csrf' => '4040170656beedb0eb46e7f4cddd3abff5d9e0e311c7e83c2879966a67672d6fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vFI_jFVyZb5MLWC76dm1D6537UlTo88\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1912'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -4141,6 +4374,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -4152,7 +4388,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -4161,6 +4401,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2024'
@@ -4220,6 +4461,8 @@ $_COOKIE = [
     'PHPSESSID' => 'ngflm5d94b4dhr8umcsgqakpm4'
     '_csrf' => '4040170656beedb0eb46e7f4cddd3abff5d9e0e311c7e83c2879966a67672d6fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vFI_jFVyZb5MLWC76dm1D6537UlTo88\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1912'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -4294,6 +4537,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -4305,7 +4551,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -4314,6 +4564,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2024'
@@ -4374,6 +4625,8 @@ $_COOKIE = [
     'PHPSESSID' => 'ngflm5d94b4dhr8umcsgqakpm4'
     '_csrf' => '4040170656beedb0eb46e7f4cddd3abff5d9e0e311c7e83c2879966a67672d6fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vFI_jFVyZb5MLWC76dm1D6537UlTo88\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1776'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -4445,6 +4698,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -4456,7 +4712,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -4465,6 +4725,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2024'
@@ -4541,6 +4802,8 @@ $_SESSION = [
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1752'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -4606,12 +4869,16 @@ $_COOKIE = [
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2024'
@@ -4674,6 +4941,8 @@ $_COOKIE = [
     'PHPSESSID' => 'ngflm5d94b4dhr8umcsgqakpm4'
     '_csrf' => '4040170656beedb0eb46e7f4cddd3abff5d9e0e311c7e83c2879966a67672d6fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vFI_jFVyZb5MLWC76dm1D6537UlTo88\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1752'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -4742,6 +5011,9 @@ $_COOKIE = [
     'iweb_head_ico' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
     'iweb_safecode' => 'a365b22674MDI3NDYwMDAzMDFrMDVlZmE4MDdlPj1hZDJlNzZgMmU4NmU5NmZhMTBlPj8xPDozMjUyMTJlYzQwNTQ+ZTpjMg'
     'iweb_user_pwd' => 'a365b22674MDI3NDYwMDAzMGNvZzIwNzdkMGIxODI5MGMzZmVnNzQ'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -4753,7 +5025,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -4762,6 +5038,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2024'
@@ -4831,6 +5108,8 @@ $_SESSION = [
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1752'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -4896,12 +5175,16 @@ $_COOKIE = [
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2024'
@@ -5003,6 +5286,8 @@ $_SESSION = [
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1776'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -5068,12 +5353,16 @@ $_COOKIE = [
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1996'
@@ -5131,6 +5420,8 @@ $_COOKIE = [
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1776'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -5196,12 +5487,16 @@ $_COOKIE = [
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1996'
@@ -5257,6 +5552,8 @@ $_COOKIE = [
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1776'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -5339,12 +5636,16 @@ $_SESSION = [
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1996'
@@ -5408,6 +5709,8 @@ $_COOKIE = [
     'PHPSESSID' => 'ngflm5d94b4dhr8umcsgqakpm4'
     '_csrf' => '4040170656beedb0eb46e7f4cddd3abff5d9e0e311c7e83c2879966a67672d6fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vFI_jFVyZb5MLWC76dm1D6537UlTo88\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1736'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -5480,11 +5783,15 @@ $_COOKIE = [
     'iweb_user_pwd' => 'c128b9a2e0MDAwNjAwMDUwN2NhZjI5NDJnOGo9Nzc5NWM0ZmVuNz0'
     'PHPSESSID' => 'cm3gj9dqbn10ig18k3en39r2p5'
     '_csrf' => '7e994d7ad0467b2a74b39c63dfd4a4ee28a5596b363c0d61bd578d8ca9ce64e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3Y6ScbvoLTY8jkiosUPy3tuqyB5MzO0m\";}'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
 $_SESSION = [
     '__flash' => []
+<<<<<<< HEAD
 <<<<<<< HEAD
     'ad_uname' => 'di'
     'admin_id' => '6'
@@ -5493,18 +5800,24 @@ $_SESSION = [
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'ad_uname' => 'admin'
     'admin_id' => '1'
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1864'
@@ -5567,6 +5880,8 @@ $_COOKIE = [
     'PHPSESSID' => 'ngflm5d94b4dhr8umcsgqakpm4'
     '_csrf' => '4040170656beedb0eb46e7f4cddd3abff5d9e0e311c7e83c2879966a67672d6fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vFI_jFVyZb5MLWC76dm1D6537UlTo88\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1736'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -5644,11 +5959,15 @@ $_COOKIE = [
     'iweb_user_pwd' => 'c128b9a2e0MDAwNjAwMDUwN2NhZjI5NDJnOGo9Nzc5NWM0ZmVuNz0'
     'PHPSESSID' => 'cm3gj9dqbn10ig18k3en39r2p5'
     '_csrf' => '7e994d7ad0467b2a74b39c63dfd4a4ee28a5596b363c0d61bd578d8ca9ce64e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3Y6ScbvoLTY8jkiosUPy3tuqyB5MzO0m\";}'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
 $_SESSION = [
     '__flash' => []
+<<<<<<< HEAD
 <<<<<<< HEAD
     'ad_uname' => 'di'
     'admin_id' => '6'
@@ -5657,18 +5976,24 @@ $_SESSION = [
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'ad_uname' => 'admin'
     'admin_id' => '1'
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1864'
@@ -5731,6 +6056,8 @@ $_COOKIE = [
     'PHPSESSID' => 'ngflm5d94b4dhr8umcsgqakpm4'
     '_csrf' => '4040170656beedb0eb46e7f4cddd3abff5d9e0e311c7e83c2879966a67672d6fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vFI_jFVyZb5MLWC76dm1D6537UlTo88\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1736'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -5799,11 +6126,15 @@ $_COOKIE = [
     'iweb_admin_pwd' => '8a6fdf0e47MjEwNzEzODAwNDQxMz8zNWM7ZmUyPjQyYzswMDNnNGJjMGNiNzI0ODdmbT42MjNkMGZmYWFhNWg5N2Y1Ojg7YA'
     'PHPSESSID' => 'pdsf2d9hvkb9nk14qdocjm71i1'
     '_csrf' => '94940f297236de7c9e0fa59200eff787ed3ffc3bf2e89fed21c6e86e81cd3e50a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KBAFT20_EtGRekjpX7Jp43BSibv8o888\";}'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
 $_SESSION = [
     '__flash' => []
+<<<<<<< HEAD
 <<<<<<< HEAD
     'ad_uname' => 'di'
     'admin_id' => '6'
@@ -5812,10 +6143,13 @@ $_SESSION = [
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'ad_uname' => 'admin'
     'admin_id' => '1'
 ]
 
+<<<<<<< HEAD
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -5886,6 +6220,15 @@ $_COOKIE = [
     'PHPSESSID' => 'ngflm5d94b4dhr8umcsgqakpm4'
     '_csrf' => '4040170656beedb0eb46e7f4cddd3abff5d9e0e311c7e83c2879966a67672d6fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vFI_jFVyZb5MLWC76dm1D6537UlTo88\";}'
 =======
+=======
+$_SERVER = [
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1744'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -5954,11 +6297,15 @@ $_COOKIE = [
     'iweb_admin_pwd' => '8a6fdf0e47MjEwNzEzODAwNDQxMz8zNWM7ZmUyPjQyYzswMDNnNGJjMGNiNzI0ODdmbT42MjNkMGZmYWFhNWg5N2Y1Ojg7YA'
     'PHPSESSID' => 'pdsf2d9hvkb9nk14qdocjm71i1'
     '_csrf' => '94940f297236de7c9e0fa59200eff787ed3ffc3bf2e89fed21c6e86e81cd3e50a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KBAFT20_EtGRekjpX7Jp43BSibv8o888\";}'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
 $_SESSION = [
     '__flash' => []
+<<<<<<< HEAD
 <<<<<<< HEAD
     'ad_uname' => 'di'
     'admin_id' => '6'
@@ -5967,18 +6314,24 @@ $_SESSION = [
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'ad_uname' => 'admin'
     'admin_id' => '1'
 ]
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1864'
@@ -6000,6 +6353,8 @@ $_SERVER = [
     'SERVER_ADDR' => '127.0.0.1'
     'SERVER_NAME' => 'www.pin.com'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1836'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -6019,12 +6374,16 @@ $_SERVER = [
     'SERVER_PORT' => '80'
     'SERVER_ADDR' => '127.0.0.1'
     'SERVER_NAME' => 'www.iwebshop.com'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
     'SERVER_SIGNATURE' => ''
     'SystemRoot' => 'C:\\windows'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
     'HTTP_CONNECTION' => 'close'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=ngflm5d94b4dhr8umcsgqakpm4; _csrf=4040170656beedb0eb46e7f4cddd3abff5d9e0e311c7e83c2879966a67672d6fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vFI_jFVyZb5MLWC76dm1D6537UlTo88%22%3B%7D'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
@@ -6055,6 +6414,8 @@ $_COOKIE = [
 $_SERVER = [
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; iweb_safecode=1a3ccdf850MDcwMDU4OTAwMDNiNTxnYWI5PjdiNz1kZjJlPzdmNW02NWEyMWZhNTxgPTgxNDI0MTc3MDpkZjQ8MTIwZDhiMg; iweb_shoppingcart=a24b40b3ccMDAwMDcwMDA1NjMxZTAxZmA3Z2M0Mjw8NTQ2NzMzMjV4JWdramR7Jj9eXiAmdHBpZHZjdCY6W1l%2F; iweb_visit=3551536a4dMjUxMjAwMTA0NTE1OGZtNWFmNzM0NzczNTM8PzU0YmIqMCA; iweb_captcha=2e41d1ff88NzYwMDczMDE0OTRkYjYzOGU9NGZkMTduZjE2ZDk5YGRpam9zaw; bdshare_firstime=1478563658717; iweb_admin_role_name=8a6fdf0e47MjEwNzEzODAwNDJtYD8zMWcxNDVlNzEzZjxmNWM8ZTDosIXnu6Xmp6DkmI7ilZ8; iweb_admin_id=7c490604ddMDI1MTczODAwNDRkNjdlMGI7MTkyODRoMGc1NTk1NzE4; iweb_admin_name=8a6fdf0e47MjEwNzEzODAwNDQxNT47Y2RrZWU0NjU3ZGg5MTYxYTVhYm1pbw; iweb_admin_pwd=8a6fdf0e47MjEwNzEzODAwNDQxMz8zNWM7ZmUyPjQyYzswMDNnNGJjMGNiNzI0ODdmbT42MjNkMGZmYWFhNWg5N2Y1Ojg7YA; PHPSESSID=pdsf2d9hvkb9nk14qdocjm71i1; _csrf=94940f297236de7c9e0fa59200eff787ed3ffc3bf2e89fed21c6e86e81cd3e50a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KBAFT20_EtGRekjpX7Jp43BSibv8o888%22%3B%7D'
     'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
@@ -6107,12 +6468,16 @@ $_SESSION = [
 
 $_SERVER = [
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SYSTEMROOT' => 'C:\\windows'
     'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2040'
@@ -6134,6 +6499,8 @@ $_SERVER = [
     'SERVER_ADDR' => '127.0.0.1'
     'SERVER_NAME' => 'www.pin.com'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1836'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -6153,12 +6520,16 @@ $_SERVER = [
     'SERVER_PORT' => '80'
     'SERVER_ADDR' => '127.0.0.1'
     'SERVER_NAME' => 'www.iwebshop.com'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
     'SERVER_SIGNATURE' => ''
     'SystemRoot' => 'C:\\windows'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
     'HTTP_CONNECTION' => 'close'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=ngflm5d94b4dhr8umcsgqakpm4; _csrf=4040170656beedb0eb46e7f4cddd3abff5d9e0e311c7e83c2879966a67672d6fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vFI_jFVyZb5MLWC76dm1D6537UlTo88%22%3B%7D'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
@@ -6194,6 +6565,8 @@ $_COOKIE = [
     'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
     '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; iweb_safecode=1a3ccdf850MDcwMDU4OTAwMDNiNTxnYWI5PjdiNz1kZjJlPzdmNW02NWEyMWZhNTxgPTgxNDI0MTc3MDpkZjQ8MTIwZDhiMg; iweb_shoppingcart=a24b40b3ccMDAwMDcwMDA1NjMxZTAxZmA3Z2M0Mjw8NTQ2NzMzMjV4JWdramR7Jj9eXiAmdHBpZHZjdCY6W1l%2F; iweb_visit=3551536a4dMjUxMjAwMTA0NTE1OGZtNWFmNzM0NzczNTM8PzU0YmIqMCA; iweb_captcha=2e41d1ff88NzYwMDczMDE0OTRkYjYzOGU9NGZkMTduZjE2ZDk5YGRpam9zaw; bdshare_firstime=1478563658717; iweb_admin_role_name=8a6fdf0e47MjEwNzEzODAwNDJtYD8zMWcxNDVlNzEzZjxmNWM8ZTDosIXnu6Xmp6DkmI7ilZ8; iweb_admin_id=7c490604ddMDI1MTczODAwNDRkNjdlMGI7MTkyODRoMGc1NTk1NzE4; iweb_admin_name=8a6fdf0e47MjEwNzEzODAwNDQxNT47Y2RrZWU0NjU3ZGg5MTYxYTVhYm1pbw; iweb_admin_pwd=8a6fdf0e47MjEwNzEzODAwNDQxMz8zNWM7ZmUyPjQyYzswMDNnNGJjMGNiNzI0ODdmbT42MjNkMGZmYWFhNWg5N2Y1Ojg7YA; PHPSESSID=pdsf2d9hvkb9nk14qdocjm71i1; _csrf=94940f297236de7c9e0fa59200eff787ed3ffc3bf2e89fed21c6e86e81cd3e50a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KBAFT20_EtGRekjpX7Jp43BSibv8o888%22%3B%7D'
     'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
@@ -6236,6 +6609,9 @@ $_COOKIE = [
     'iweb_admin_pwd' => '8a6fdf0e47MjEwNzEzODAwNDQxMz8zNWM7ZmUyPjQyYzswMDNnNGJjMGNiNzI0ODdmbT42MjNkMGZmYWFhNWg5N2Y1Ojg7YA'
     'PHPSESSID' => 'pdsf2d9hvkb9nk14qdocjm71i1'
     '_csrf' => '94940f297236de7c9e0fa59200eff787ed3ffc3bf2e89fed21c6e86e81cd3e50a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KBAFT20_EtGRekjpX7Jp43BSibv8o888\";}'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -6247,7 +6623,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -6256,6 +6636,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1988'
@@ -6277,6 +6658,8 @@ $_SERVER = [
     'SERVER_ADDR' => '127.0.0.1'
     'SERVER_NAME' => 'www.pin.com'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1836'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -6296,12 +6679,16 @@ $_SERVER = [
     'SERVER_PORT' => '80'
     'SERVER_ADDR' => '127.0.0.1'
     'SERVER_NAME' => 'www.iwebshop.com'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
     'SERVER_SIGNATURE' => ''
     'SystemRoot' => 'C:\\windows'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
     'HTTP_CONNECTION' => 'close'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=chmbnipb6fr976qk1gfonjiao7; _csrf=5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb%22%3B%7D'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
@@ -6338,6 +6725,8 @@ $_COOKIE = [
     'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
     '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; iweb_safecode=1a3ccdf850MDcwMDU4OTAwMDNiNTxnYWI5PjdiNz1kZjJlPzdmNW02NWEyMWZhNTxgPTgxNDI0MTc3MDpkZjQ8MTIwZDhiMg; iweb_shoppingcart=a24b40b3ccMDAwMDcwMDA1NjMxZTAxZmA3Z2M0Mjw8NTQ2NzMzMjV4JWdramR7Jj9eXiAmdHBpZHZjdCY6W1l%2F; iweb_visit=3551536a4dMjUxMjAwMTA0NTE1OGZtNWFmNzM0NzczNTM8PzU0YmIqMCA; iweb_captcha=2e41d1ff88NzYwMDczMDE0OTRkYjYzOGU9NGZkMTduZjE2ZDk5YGRpam9zaw; bdshare_firstime=1478563658717; iweb_admin_role_name=8a6fdf0e47MjEwNzEzODAwNDJtYD8zMWcxNDVlNzEzZjxmNWM8ZTDosIXnu6Xmp6DkmI7ilZ8; iweb_admin_id=7c490604ddMDI1MTczODAwNDRkNjdlMGI7MTkyODRoMGc1NTk1NzE4; iweb_admin_name=8a6fdf0e47MjEwNzEzODAwNDQxNT47Y2RrZWU0NjU3ZGg5MTYxYTVhYm1pbw; iweb_admin_pwd=8a6fdf0e47MjEwNzEzODAwNDQxMz8zNWM7ZmUyPjQyYzswMDNnNGJjMGNiNzI0ODdmbT42MjNkMGZmYWFhNWg5N2Y1Ojg7YA; PHPSESSID=pdsf2d9hvkb9nk14qdocjm71i1; _csrf=94940f297236de7c9e0fa59200eff787ed3ffc3bf2e89fed21c6e86e81cd3e50a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KBAFT20_EtGRekjpX7Jp43BSibv8o888%22%3B%7D'
     'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
@@ -6380,6 +6769,9 @@ $_COOKIE = [
     'iweb_admin_pwd' => '8a6fdf0e47MjEwNzEzODAwNDQxMz8zNWM7ZmUyPjQyYzswMDNnNGJjMGNiNzI0ODdmbT42MjNkMGZmYWFhNWg5N2Y1Ojg7YA'
     'PHPSESSID' => 'pdsf2d9hvkb9nk14qdocjm71i1'
     '_csrf' => '94940f297236de7c9e0fa59200eff787ed3ffc3bf2e89fed21c6e86e81cd3e50a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KBAFT20_EtGRekjpX7Jp43BSibv8o888\";}'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -6391,7 +6783,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -6400,6 +6796,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2176'
@@ -6421,6 +6818,8 @@ $_SERVER = [
     'SERVER_ADDR' => '127.0.0.1'
     'SERVER_NAME' => 'www.pin.com'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1836'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -6440,12 +6839,16 @@ $_SERVER = [
     'SERVER_PORT' => '80'
     'SERVER_ADDR' => '127.0.0.1'
     'SERVER_NAME' => 'www.iwebshop.com'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
     'SERVER_SIGNATURE' => ''
     'SystemRoot' => 'C:\\windows'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
     'HTTP_CONNECTION' => 'close'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=chmbnipb6fr976qk1gfonjiao7; _csrf=5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb%22%3B%7D'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
@@ -6506,6 +6909,8 @@ $_COOKIE = [
     'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
     '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; iweb_safecode=1a3ccdf850MDcwMDU4OTAwMDNiNTxnYWI5PjdiNz1kZjJlPzdmNW02NWEyMWZhNTxgPTgxNDI0MTc3MDpkZjQ8MTIwZDhiMg; iweb_shoppingcart=a24b40b3ccMDAwMDcwMDA1NjMxZTAxZmA3Z2M0Mjw8NTQ2NzMzMjV4JWdramR7Jj9eXiAmdHBpZHZjdCY6W1l%2F; iweb_visit=3551536a4dMjUxMjAwMTA0NTE1OGZtNWFmNzM0NzczNTM8PzU0YmIqMCA; iweb_captcha=2e41d1ff88NzYwMDczMDE0OTRkYjYzOGU9NGZkMTduZjE2ZDk5YGRpam9zaw; bdshare_firstime=1478563658717; iweb_admin_role_name=8a6fdf0e47MjEwNzEzODAwNDJtYD8zMWcxNDVlNzEzZjxmNWM8ZTDosIXnu6Xmp6DkmI7ilZ8; iweb_admin_id=7c490604ddMDI1MTczODAwNDRkNjdlMGI7MTkyODRoMGc1NTk1NzE4; iweb_admin_name=8a6fdf0e47MjEwNzEzODAwNDQxNT47Y2RrZWU0NjU3ZGg5MTYxYTVhYm1pbw; iweb_admin_pwd=8a6fdf0e47MjEwNzEzODAwNDQxMz8zNWM7ZmUyPjQyYzswMDNnNGJjMGNiNzI0ODdmbT42MjNkMGZmYWFhNWg5N2Y1Ojg7YA; PHPSESSID=pdsf2d9hvkb9nk14qdocjm71i1; _csrf=94940f297236de7c9e0fa59200eff787ed3ffc3bf2e89fed21c6e86e81cd3e50a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KBAFT20_EtGRekjpX7Jp43BSibv8o888%22%3B%7D'
     'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
@@ -6548,6 +6953,9 @@ $_COOKIE = [
     'iweb_admin_pwd' => '8a6fdf0e47MjEwNzEzODAwNDQxMz8zNWM7ZmUyPjQyYzswMDNnNGJjMGNiNzI0ODdmbT42MjNkMGZmYWFhNWg5N2Y1Ojg7YA'
     'PHPSESSID' => 'pdsf2d9hvkb9nk14qdocjm71i1'
     '_csrf' => '94940f297236de7c9e0fa59200eff787ed3ffc3bf2e89fed21c6e86e81cd3e50a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KBAFT20_EtGRekjpX7Jp43BSibv8o888\";}'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -6559,7 +6967,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -6568,6 +6980,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2172'
@@ -6628,6 +7041,8 @@ $_COOKIE = [
     'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
     '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1836'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -6695,6 +7110,9 @@ $_COOKIE = [
     'iweb_admin_pwd' => '8a6fdf0e47MjEwNzEzODAwNDQxMz8zNWM7ZmUyPjQyYzswMDNnNGJjMGNiNzI0ODdmbT42MjNkMGZmYWFhNWg5N2Y1Ojg7YA'
     'PHPSESSID' => 'pdsf2d9hvkb9nk14qdocjm71i1'
     '_csrf' => '94940f297236de7c9e0fa59200eff787ed3ffc3bf2e89fed21c6e86e81cd3e50a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KBAFT20_EtGRekjpX7Jp43BSibv8o888\";}'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -6706,7 +7124,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -6715,6 +7137,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2172'
@@ -6775,6 +7198,8 @@ $_COOKIE = [
     'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
     '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1836'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -6842,6 +7267,9 @@ $_COOKIE = [
     'iweb_admin_pwd' => '8a6fdf0e47MjEwNzEzODAwNDQxMz8zNWM7ZmUyPjQyYzswMDNnNGJjMGNiNzI0ODdmbT42MjNkMGZmYWFhNWg5N2Y1Ojg7YA'
     'PHPSESSID' => 'pdsf2d9hvkb9nk14qdocjm71i1'
     '_csrf' => '94940f297236de7c9e0fa59200eff787ed3ffc3bf2e89fed21c6e86e81cd3e50a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KBAFT20_EtGRekjpX7Jp43BSibv8o888\";}'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -6853,7 +7281,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -6862,6 +7294,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2172'
@@ -6923,6 +7356,8 @@ $_COOKIE = [
     'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
     '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1880'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -6990,6 +7425,9 @@ $_COOKIE = [
     'iweb_admin_pwd' => '8a6fdf0e47MjEwNzEzODAwNDQxMz8zNWM7ZmUyPjQyYzswMDNnNGJjMGNiNzI0ODdmbT42MjNkMGZmYWFhNWg5N2Y1Ojg7YA'
     'PHPSESSID' => 'pdsf2d9hvkb9nk14qdocjm71i1'
     '_csrf' => '94940f297236de7c9e0fa59200eff787ed3ffc3bf2e89fed21c6e86e81cd3e50a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KBAFT20_EtGRekjpX7Jp43BSibv8o888\";}'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -7001,7 +7439,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -7010,6 +7452,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2172'
@@ -7031,6 +7474,8 @@ $_SERVER = [
     'SERVER_ADDR' => '127.0.0.1'
     'SERVER_NAME' => 'www.pin.com'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1880'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -7050,12 +7495,16 @@ $_SERVER = [
     'SERVER_PORT' => '80'
     'SERVER_ADDR' => '127.0.0.1'
     'SERVER_NAME' => 'www.iwebshop.com'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
     'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
     'SERVER_SIGNATURE' => ''
     'SystemRoot' => 'C:\\windows'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
     'HTTP_CONNECTION' => 'close'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'HTTP_COOKIE' => '__utma=175658403.1035526730.1478247739.1478247739.1478247739.1; __utmz=175658403.1478247739.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=chmbnipb6fr976qk1gfonjiao7; _csrf=5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb%22%3B%7D'
     'HTTP_REFERER' => 'http://www.pin.com/index.php?r=manager/manager-list'
@@ -7090,6 +7539,8 @@ $_COOKIE = [
     'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
     '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; iweb_safecode=1a3ccdf850MDcwMDU4OTAwMDNiNTxnYWI5PjdiNz1kZjJlPzdmNW02NWEyMWZhNTxgPTgxNDI0MTc3MDpkZjQ8MTIwZDhiMg; iweb_shoppingcart=a24b40b3ccMDAwMDcwMDA1NjMxZTAxZmA3Z2M0Mjw8NTQ2NzMzMjV4JWdramR7Jj9eXiAmdHBpZHZjdCY6W1l%2F; iweb_visit=3551536a4dMjUxMjAwMTA0NTE1OGZtNWFmNzM0NzczNTM8PzU0YmIqMCA; iweb_captcha=2e41d1ff88NzYwMDczMDE0OTRkYjYzOGU9NGZkMTduZjE2ZDk5YGRpam9zaw; bdshare_firstime=1478563658717; iweb_admin_role_name=8a6fdf0e47MjEwNzEzODAwNDJtYD8zMWcxNDVlNzEzZjxmNWM8ZTDosIXnu6Xmp6DkmI7ilZ8; iweb_admin_id=7c490604ddMDI1MTczODAwNDRkNjdlMGI7MTkyODRoMGc1NTk1NzE4; iweb_admin_name=8a6fdf0e47MjEwNzEzODAwNDQxNT47Y2RrZWU0NjU3ZGg5MTYxYTVhYm1pbw; iweb_admin_pwd=8a6fdf0e47MjEwNzEzODAwNDQxMz8zNWM7ZmUyPjQyYzswMDNnNGJjMGNiNzI0ODdmbT42MjNkMGZmYWFhNWg5N2Y1Ojg7YA; PHPSESSID=pdsf2d9hvkb9nk14qdocjm71i1; _csrf=94940f297236de7c9e0fa59200eff787ed3ffc3bf2e89fed21c6e86e81cd3e50a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KBAFT20_EtGRekjpX7Jp43BSibv8o888%22%3B%7D'
     'HTTP_REFERER' => 'http://www.iwebshop.com/my_project/recruit/job/backend/web/index.php'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
@@ -7132,6 +7583,9 @@ $_COOKIE = [
     'iweb_admin_pwd' => '8a6fdf0e47MjEwNzEzODAwNDQxMz8zNWM7ZmUyPjQyYzswMDNnNGJjMGNiNzI0ODdmbT42MjNkMGZmYWFhNWg5N2Y1Ojg7YA'
     'PHPSESSID' => 'pdsf2d9hvkb9nk14qdocjm71i1'
     '_csrf' => '94940f297236de7c9e0fa59200eff787ed3ffc3bf2e89fed21c6e86e81cd3e50a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KBAFT20_EtGRekjpX7Jp43BSibv8o888\";}'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -7143,7 +7597,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -7152,6 +7610,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1956'
@@ -7239,6 +7698,8 @@ $_COOKIE = [
     'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
     '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1880'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -7306,6 +7767,9 @@ $_COOKIE = [
     'iweb_admin_pwd' => '8a6fdf0e47MjEwNzEzODAwNDQxMz8zNWM7ZmUyPjQyYzswMDNnNGJjMGNiNzI0ODdmbT42MjNkMGZmYWFhNWg5N2Y1Ojg7YA'
     'PHPSESSID' => 'pdsf2d9hvkb9nk14qdocjm71i1'
     '_csrf' => '94940f297236de7c9e0fa59200eff787ed3ffc3bf2e89fed21c6e86e81cd3e50a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KBAFT20_EtGRekjpX7Jp43BSibv8o888\";}'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -7317,7 +7781,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -7326,6 +7794,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2096'
@@ -7390,6 +7859,8 @@ $_COOKIE = [
     'PHPSESSID' => 'chmbnipb6fr976qk1gfonjiao7'
     '_csrf' => '5edfdc93055bd73c65d767594e3ace704ef0f8a85ca10726e251a1855056bda6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3gGIkLWY4tJsiwxbLJCxGV4ks7_m_YYb\";}'
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1880'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -7457,6 +7928,9 @@ $_COOKIE = [
     'iweb_admin_pwd' => '8a6fdf0e47MjEwNzEzODAwNDQxMz8zNWM7ZmUyPjQyYzswMDNnNGJjMGNiNzI0ODdmbT42MjNkMGZmYWFhNWg5N2Y1Ojg7YA'
     'PHPSESSID' => 'pdsf2d9hvkb9nk14qdocjm71i1'
     '_csrf' => '94940f297236de7c9e0fa59200eff787ed3ffc3bf2e89fed21c6e86e81cd3e50a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KBAFT20_EtGRekjpX7Jp43BSibv8o888\";}'
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
 
@@ -7468,7 +7942,11 @@ $_SESSION = [
 
 $_SERVER = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\Lenovo\\ReadyApps;D:\\WAMP\\bin;D:\\WAMP\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lianmengdi\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> remotes/origin/cyy
 =======
     'PATH' => 'C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\SVN\\bin;E:\\phptudy\\php56n;C:\\ProgramData\\ComposerSetup\\bin;D:\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
 >>>>>>> remotes/origin/cyy
@@ -7477,6 +7955,7 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
 <<<<<<< HEAD
     'PHPRC' => 'D:/WAMP/phpstudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '2096'
@@ -7516,6 +7995,8 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1478671305.5411
     'REQUEST_TIME' => 1478671305
 =======
+=======
+>>>>>>> remotes/origin/cyy
     'PHPRC' => 'E:/phptudy/php55n'
     '_FCGI_SHUTDOWN_EVENT_' => '1880'
     'SCRIPT_NAME' => '/my_project/recruit/job/backend/web/index.php'
@@ -7552,5 +8033,8 @@ $_SERVER = [
     'PHP_SELF' => '/my_project/recruit/job/backend/web/index.php'
     'REQUEST_TIME_FLOAT' => 1478758977.9731
     'REQUEST_TIME' => 1478758977
+<<<<<<< HEAD
+>>>>>>> remotes/origin/cyy
+=======
 >>>>>>> remotes/origin/cyy
 ]
